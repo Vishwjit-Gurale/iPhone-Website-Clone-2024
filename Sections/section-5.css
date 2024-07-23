@@ -1,0 +1,362 @@
+@media (min-width: 1061px) and (max-width: 10800px) {
+  .section-5 {
+    height: 830px;
+    width: 100%;
+    background-color: #fbfbfd;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section-5 .s5-right {
+    height: 320px;
+    width: 620px;
+    background-color: #fbfbfd;
+    /* margin-right: 80px; */
+  }
+  .s5-right .iphone-5 {
+    height: auto;
+    width: 100%;
+    background-color: #fbfbfd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  .s5-right .para-5 {
+    height: auto;
+    width: 100%;
+    background-color: #fbfbfd;
+    margin-bottom: 10px;
+  }
+  .s5-right .para-5 p {
+    font-size: 48px;
+    font-weight: 550;
+    letter-spacing: 0.15px;
+    line-height: 52px;
+    text-align: center;
+    padding: 0px 100px;
+    color: #2c4dba;
+  }
+  .s5-right .price-5 {
+    height: auto;
+    width: 100%;
+    background-color: #fbfbfd;
+    margin-bottom: 12px;
+    margin-top: 32px;
+  }
+
+  .s5-right .price-5 p {
+    font-size: 21px;
+    letter-spacing: 0.23px;
+    line-height: 28px;
+    text-align: center;
+    color: #1d1d1f;
+  }
+
+  .s5-right .btn-link-5 {
+    height: 90px;
+    width: 100%;
+    background-color: #fbfbfd;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+
+  .s5-right .btn-link-5 .btn-5 {
+    height: auto;
+    width: 100%;
+    text-align: center;
+    background-color: #fbfbfd;
+  }
+
+  .s5-right .btn-link-5 .btn-5 button {
+    overflow: hidden;
+    padding: 8px 15px;
+    font-size: 18px;
+    border-radius: 100px;
+    background-color: #0077ed;
+    color: #ffffff;
+    border: none;
+  }
+
+  .s5-right .btn-link-5 .link-5 {
+    height: auto;
+    width: 100%;
+    background-color: #fbfbfd;
+    text-align: center;
+  }
+
+  .s5-right .btn-link-5 a {
+    text-decoration: none;
+    font-size: 21px;
+    color: #2997ff;
+  }
+
+  .s5-right .btn-link-5 a:hover {
+    text-decoration: underline;
+  }
+
+  .section-5 .s5-left {
+    height: 830px;
+    width: 495px;
+    background-image: url(../Images/S-5/3.jpg);
+    background-color: #fbfbfd;
+    margin-right: 135px;
+    background-repeat: no-repeat;
+  }
+}
+
+/**
+*todo 730 ->
+*/
+
+@media (min-width: 731px) and (max-width: 1060.96px) {
+  .section-5 {
+    height: 860px;
+    width: 100%;
+    background-color: #fbfbfd;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .section-5 .s5-right {
+    height: 330px;
+    width: 620px;
+    background-color: #fbfbfd;
+    margin-right: 10px;
+    margin-top: 50px;
+  }
+  .s5-right .iphone-5 {
+    height: auto;
+    width: 100%;
+    background-color: #fbfbfd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  .s5-right .para-5 {
+    height: auto;
+    width: 100%;
+    background-color: #fbfbfd;
+    margin-bottom: 10px;
+    margin-top: 30px;
+  }
+  .s5-right .para-5 p {
+    font-size: 45px;
+    font-weight: 550;
+    letter-spacing: 0.15px;
+    line-height: 52px;
+    text-align: center;
+    padding: 0px 100px;
+    color: #2c4dba;
+  }
+  .s5-right .price-5 {
+    height: auto;
+    width: 100%;
+    background-color: #fbfbfd;
+    margin-bottom: 12px;
+    margin-top: 20px;
+  }
+
+  .s5-right .price-5 p {
+    font-size: 21px;
+    letter-spacing: 0.23px;
+    line-height: 28px;
+    text-align: center;
+    color: #1d1d1f;
+  }
+
+  .s5-right .btn-link-5 {
+    height: 90px;
+    width: 100%;
+    background-color: #fbfbfd;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+
+  .s5-right .btn-link-5 .btn-5 {
+    height: auto;
+    width: 100%;
+    text-align: center;
+    background-color: #fbfbfd;
+  }
+
+  .s5-right .btn-link-5 .btn-5 button {
+    overflow: hidden;
+    padding: 8px 15px;
+    font-size: 18px;
+    border-radius: 100px;
+    background-color: #0077ed;
+    color: #ffffff;
+    border: none;
+  }
+
+  .s5-right .btn-link-5 .link-5 {
+    height: auto;
+    width: 100%;
+    background-color: #fbfbfd;
+    text-align: center;
+  }
+
+  .s5-right .btn-link-5 a {
+    text-decoration: none;
+    font-size: 21px;
+    color: #2997ff;
+  }
+
+  .s5-right .btn-link-5 a:hover {
+    text-decoration: underline;
+  }
+
+  .section-5 .s5-left {
+    height: 460px;
+    width: 280px;
+    background-color: #fbfbfd;
+    background-image: url(../Images/S-5/1.jpg);
+    background-repeat: no-repeat;
+    /* margin-top: 15px; */
+  }
+}
+/**
+*todo Screen ->
+*/
+@media screen and (max-width: 730.96px) {
+  .section-5 {
+    position: relative;
+    height: 860px;
+    width: 100%;
+    background-color: #fbfbfd;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    container-type: inline-size;
+  }
+
+  .section-5 .s5-right {
+    /* position: absolute; */
+    height: 330px;
+    /* width: 400px; */
+    width: 80vw;
+    background-color: #fbfbfd;
+    /* background-color: wheat; */
+    margin-right: 10px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    container-type: inline-size;
+  }
+  .s5-right .iphone-5 {
+    height: auto;
+    width: 100%;
+    background-color: #fbfbfd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    container-type: inline-size;
+  }
+  .s5-right .para-5 {
+    height: auto;
+    width: 100%;
+    background-color: #fbfbfd;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    container-type: inline-size;
+  }
+  .s5-right .para-5 p {
+    font-size: 32px;
+    font-weight: 550;
+    letter-spacing: 0.115px;
+    line-height: 33px;
+    text-align: center;
+    padding: 0px 8vw;
+    color: #2c4dba;
+    display: flex;
+    container-type: inline-size;
+  }
+  .s5-right .price-5 {
+    height: auto;
+    width: 100%;
+    background-color: #fbfbfd;
+    margin-bottom: 12px;
+    margin-top: 20px;
+  }
+
+  .s5-right .price-5 p {
+    font-size: 21px;
+    letter-spacing: 0.23px;
+    line-height: 28px;
+    text-align: center;
+    color: #1d1d1f;
+  }
+
+  .s5-right .btn-link-5 {
+    height: 90px;
+    width: 100%;
+    background-color: #fbfbfd;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+
+  .s5-right .btn-link-5 .btn-5 {
+    height: auto;
+    width: 100%;
+    text-align: center;
+    background-color: #fbfbfd;
+  }
+
+  .s5-right .btn-link-5 .btn-5 button {
+    overflow: hidden;
+    padding: 8px 15px;
+    font-size: 18px;
+    border-radius: 100px;
+    background-color: #0077ed;
+    color: #ffffff;
+    border: none;
+  }
+
+  .s5-right .btn-link-5 .link-5 {
+    height: auto;
+    width: 100%;
+    background-color: #fbfbfd;
+    text-align: center;
+  }
+
+  .s5-right .btn-link-5 a {
+    text-decoration: none;
+    font-size: 21px;
+    color: #2997ff;
+  }
+
+  .s5-right .btn-link-5 a:hover {
+    text-decoration: underline;
+  }
+
+  .section-5 .s5-left {
+    height: 460px;
+    /* width: 280px; */
+    width: 80vw;
+    /* background-color: #fbfbfd; */
+    background-color: #fbfbfd;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    overflow: hidden;
+    background-image: url(../Images/S-5/1.jpg);
+    /* margin-top: 15px; */
+  }
+}

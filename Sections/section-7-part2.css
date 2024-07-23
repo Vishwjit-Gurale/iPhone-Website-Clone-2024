@@ -1,0 +1,1035 @@
+@media (min-width: 1061px) and (max-width: 10800px) {
+  /* Todo Main Dives Not touch */
+  .s-7-part2 {
+    height: auto;
+    width: 100%;
+    display: flex;
+    background-color: #ffffff;
+    justify-content: center;
+  }
+  .s-7-part2 .main-s7-part2 {
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+  }
+
+  .box-div-s7 .box-2 {
+    height: auto;
+    width: 980px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  /**
+*todo Box 1 div 1
+**/
+
+  .box-2 .b-2-1 {
+    height: 150px;
+    width: 980px;
+    display: flex;
+    align-items: center;
+    /* background-color: rgb(51, 91, 88); */
+    background-color: #ffffff;
+    border-bottom: 2px solid white;
+    justify-content: space-between;
+  }
+
+  .box-2 .b-2-1 .b-2-1-div-1 {
+    width: 210px;
+    height: 100px;
+    background-color: #ffffff;
+    text-align: center;
+  }
+  .box-2 .b-2-1 .b-2-1-div-2 {
+    width: 210px;
+    height: 100px;
+    background-color: #ffffff;
+    text-align: center;
+  }
+  .box-2 .b-2-1 .b-2-1-div-3 {
+    width: 210px;
+    height: 100px;
+    background-color: #ffffff;
+    text-align: center;
+  }
+  .box-2 .b-2-1 .b-2-1-div-4 {
+    width: 210px;
+    height: 100px;
+    background-color: #ffffff;
+    text-align: center;
+  }
+
+  .box-2 .b-2-1 .b-2-p-hed {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 22px;
+  }
+  .box-2 .b-2-2 .box2-div1-img {
+    height: 41px;
+    width: 55px;
+    background-image: url(../Images/S-7/Box-2/box-2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 10px;
+  }
+
+  /**
+*todo Box 1 div 2
+**/
+
+  .box-2 .b-2-2 {
+    height: 150px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    border-bottom: 2px solid white;
+    justify-content: space-around;
+  }
+  .box-2 .b-2-2 .b-2-2-div-1 {
+    width: 210px;
+    height: 130px;
+    background-color: #ffffff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .box-2 .b-2-2 .b-2-2-div-2 {
+    width: 210px;
+    height: 130px;
+    background-color: #ffffff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .box-2 .b-2-2 .b-2-2-div-3 {
+    width: 210px;
+    height: 130px;
+
+    background-color: #ffffff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .box-2 .b-2-2 .b-2-2-div-4 {
+    width: 210px;
+    height: 130px;
+
+    background-color: #ffffff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .box-2 .b-2-2 p {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.224px;
+    padding: 0.4px;
+  }
+  .box-2 .b-2-2 .box-2-last-p {
+    margin-top: 10px;
+  }
+  .box-2 .b-2-2 .box2-div1-img {
+    height: 41px;
+    width: 55px;
+    background-image: url(../Images/S-7/Box-2/box-2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 10px;
+  }
+
+  /**
+*todo Box 1 div 3
+**/
+
+  .box-2 .b-2-3 {
+    width: 210px;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    border-bottom: 2px solid white;
+    justify-content: space-around;
+  }
+
+  .box-2 .b-2-3 .b-2-3-div-1 {
+    width: 210px;
+    height: 130px;
+    background-color: #ffffff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .box-2 .b-2-3 .b-2-3-div-2 {
+    width: 210px;
+    height: 130px;
+    background-color: #ffffff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .box-2 .b-2-3 .b-2-3-div-3 {
+    width: 210px;
+    height: 130px;
+
+    background-color: #ffffff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .box-2 .b-2-3 .b-2-3-div-4 {
+    width: 210px;
+    height: 130px;
+
+    background-color: #ffffff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .box-2 .b-2-3 p {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.224px;
+    padding: 0.4px;
+  }
+  .box-2 .b-2-3 .box-3-last-p {
+    margin-top: 10px;
+  }
+  .box-2 .b-2-3 .box3-div1-img {
+    height: 38px;
+    width: 38px;
+    background-image: url(../Images/S-7/Box-3/Box-3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 10px;
+  }
+
+  /**
+*todo Box 1 div 4
+**/
+  .box-2 .b-2-4 {
+    width: 210px;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    border-bottom: 2px solid white;
+    justify-content: space-around;
+  }
+
+  .box-2 .b-2-4 .b-2-4-div-1 {
+    width: 210px;
+    height: 130px;
+    background-color: #ffffff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .box-2 .b-2-4 .b-2-4-div-2 {
+    width: 210px;
+    height: 130px;
+    background-color: #ffffff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .box-2 .b-2-4 .b-2-4-div-3 {
+    width: 210px;
+    height: 130px;
+
+    background-color: #ffffff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .box-2 .b-2-4 .b-2-4-div-4 {
+    width: 210px;
+    height: 130px;
+
+    background-color: #ffffff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .box-2 .b-2-4 p {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.224px;
+    padding: 0.4px;
+  }
+
+  .box-2 .b-2-4 .box4-div1-img {
+    height: 38px;
+    width: 38px;
+    background-image: url(../Images/S-7/Box-4/1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 10px;
+  }
+  .box-2 .b-2-4 .box4-div2-img {
+    height: 38px;
+    width: 38px;
+    background-image: url(../Images/S-7/Box-4/2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 10px;
+  }
+  .box-2 .b-2-4 .box4-div3-img {
+    height: 38px;
+    width: 38px;
+    background-image: url(../Images/S-7/Box-4/3&4.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 10px;
+  }
+  .box-2 .b-2-4 .box4-div4-img {
+    height: 38px;
+    width: 38px;
+    background-image: url(../Images/S-7/Box-4/3&4.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 10px;
+  }
+}
+
+/* Todo 731 to 1061 px */
+
+@media (min-width: 731px) and (max-width: 1060.96px) {
+  .s-7-part2 {
+    height: auto;
+    width: 100%;
+    display: flex;
+    background-color: #ffffff;
+    justify-content: center;
+  }
+  .s-7-part2 .main-s7-part2 {
+    height: auto;
+    width: 680px;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .box-div-s7 .box-2 {
+    width: auto;
+    width: 980px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    align-items: center;
+    /* justify-content: space-around; */
+  }
+
+  /**
+*todo Box 1 div 1
+**/
+
+  .box-2 .b-2-1 {
+    height: 120px;
+    width: 550px;
+    align-items: center;
+    /* background-color: rgb(51, 91, 88); */
+    background-color: #ffffff;
+    border-bottom: 2px solid white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .box-2 .b-2-1 .b-2-1-div-1 {
+    width: 210px;
+    height: 100px;
+    background-color: #ffffff;
+    text-align: center;
+  }
+  .box-2 .b-2-1 .b-2-1-div-2 {
+    width: 210px;
+    height: 100px;
+    background-color: #ffffff;
+    text-align: center;
+  }
+  .box-2 .b-2-1 .b-2-1-div-3 {
+    width: 210px;
+    height: 100px;
+    background-color: #ffffff;
+    text-align: center;
+    display: none;
+  }
+  .box-2 .b-2-1 .b-2-1-div-4 {
+    width: 210px;
+    height: 100px;
+    background-color: #ffffff;
+    text-align: center;
+    display: none;
+  }
+
+  .box-2 .b-2-1 .b-2-p-hed {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 22px;
+  }
+
+  .box-2 .b-2-1 p {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.224px;
+  }
+
+  /**
+*todo Box 1 div 2
+**/
+
+  .box-2 .b-2-2 {
+    height: 140px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    border-bottom: 2px solid white;
+    justify-content: space-around;
+  }
+  .box-2 .b-2-2 .b-2-2-div-1 {
+    width: 210px;
+    height: 130px;
+    background-color: #ffffff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .box-2 .b-2-2 .b-2-2-div-2 {
+    width: 210px;
+    height: 130px;
+    background-color: #ffffff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .box-2 .b-2-2 .b-2-2-div-3 {
+    width: 210px;
+    height: 130px;
+
+    background-color: #ffffff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: none;
+  }
+  .box-2 .b-2-2 .b-2-2-div-4 {
+    width: 210px;
+    height: 130px;
+
+    background-color: #ffffff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: none;
+  }
+
+  .box-2 .b-2-2 p {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.224px;
+    padding: 0.4px;
+  }
+  .box-2 .b-2-2 .box-2-last-p {
+    margin-top: 10px;
+  }
+  .box-2 .b-2-2 .box2-div1-img {
+    height: 41px;
+    width: 55px;
+    background-image: url(../Images/S-7/Box-2/box-2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 10px;
+  }
+
+  /**
+*todo Box 1 div 3
+**/
+
+  .box-2 .b-2-3 {
+    width: 210px;
+    height: 140px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    border-bottom: 2px solid white;
+    justify-content: space-around;
+  }
+
+  .box-2 .b-2-3 .b-2-3-div-1 {
+    width: 210px;
+    height: 130px;
+    background-color: #ffffff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .box-2 .b-2-3 .b-2-3-div-2 {
+    width: 210px;
+    height: 130px;
+    background-color: #ffffff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .box-2 .b-2-3 .b-2-3-div-3 {
+    width: 210px;
+    height: 130px;
+
+    background-color: #ffffff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: none;
+  }
+  .box-2 .b-2-3 .b-2-3-div-4 {
+    width: 210px;
+    height: 130px;
+
+    background-color: #ffffff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: none;
+  }
+
+  .box-2 .b-2-3 p {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.224px;
+    padding: 0.4px;
+  }
+  .box-2 .b-2-3 .box-3-last-p {
+    margin-top: 10px;
+  }
+  .box-2 .b-2-3 .box3-div1-img {
+    height: 38px;
+    width: 38px;
+    background-image: url(../Images/S-7/Box-3/Box-3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 10px;
+  }
+
+  /**
+*todo Box 1 div 4
+**/
+  .box-2 .b-2-4 {
+    width: 210px;
+    height: 140px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    border-bottom: 2px solid white;
+    justify-content: space-around;
+  }
+
+  .box-2 .b-2-4 .b-2-4-div-1 {
+    width: 210px;
+    height: 130px;
+    background-color: #ffffff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .box-2 .b-2-4 .b-2-4-div-2 {
+    width: 210px;
+    height: 130px;
+    background-color: #ffffff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .box-2 .b-2-4 .b-2-4-div-3 {
+    width: 210px;
+    height: 130px;
+
+    background-color: #ffffff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: none;
+  }
+  .box-2 .b-2-4 .b-2-4-div-4 {
+    width: 210px;
+    height: 130px;
+
+    background-color: #ffffff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: none;
+  }
+
+  .box-2 .b-2-4 p {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.224px;
+    padding: 0.4px;
+  }
+
+  .box-2 .b-2-4 .box4-div1-img {
+    height: 38px;
+    width: 38px;
+    background-image: url(../Images/S-7/Box-4/1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 10px;
+  }
+  .box-2 .b-2-4 .box4-div2-img {
+    height: 38px;
+    width: 38px;
+    background-image: url(../Images/S-7/Box-4/2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 10px;
+  }
+  .box-2 .b-2-4 .box4-div3-img {
+    height: 38px;
+    width: 38px;
+    background-image: url(../Images/S-7/Box-4/3&4.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 10px;
+  }
+  .box-2 .b-2-4 .box4-div4-img {
+    height: 38px;
+    width: 38px;
+    background-image: url(../Images/S-7/Box-4/3&4.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 10px;
+  }
+}
+/* Todo Screen to 730 px */
+@media screen and (max-width: 730.96px) {
+  .s-7-part2 {
+    height: auto;
+    width: 100%;
+    display: flex;
+    background-color: #ffffff;
+    justify-content: center;
+  }
+  .s-7-part2 .main-s7-part2 {
+    height: auto;
+    width: 98vw;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .box-div-s7 .box-2 {
+    width: auto;
+    width: 980px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    align-items: center;
+    /* justify-content: space-around; */
+  }
+
+  /**
+*todo Box 1 div 1
+**/
+
+  .box-2 .b-2-1 {
+    height: 150px;
+    width: 98vw;
+    align-items: center;
+    /* background-color: rgb(51, 91, 88); */
+    background-color: #ffffff;
+    border-bottom: 2px solid white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .box-2 .b-2-1 .b-2-1-div-1 {
+    width: 40vw;
+    height: 120px;
+    background-color: #ffffff;
+    text-align: center;
+    word-break: break-all;
+    word-wrap: break-word;
+    overflow: hidden;
+  }
+  .box-2 .b-2-1 .b-2-1-div-2 {
+    width: 40vw;
+    height: 120px;
+    background-color: #ffffff;
+    text-align: center;
+  }
+  .box-2 .b-2-1 .b-2-1-div-3 {
+    width: 40vw;
+    height: 100px;
+    background-color: #ffffff;
+    text-align: center;
+    display: none;
+  }
+  .box-2 .b-2-1 .b-2-1-div-4 {
+    width: 40vw;
+    height: 100px;
+    background-color: #ffffff;
+    text-align: center;
+    display: none;
+  }
+
+  .box-2 .b-2-1 .b-2-p-hed {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 22px;
+  }
+
+  .box-2 .b-2-1 p {
+    font-size: 1rem;
+
+    line-height: 20px;
+    letter-spacing: 0.224px;
+  }
+
+  /**
+*todo Box 1 div 2
+**/
+
+  .box-2 .b-2-2 {
+    height: 150px;
+    width: 98vw;
+
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    border-bottom: 2px solid white;
+    justify-content: space-between;
+  }
+  .box-2 .b-2-2 .b-2-2-div-1 {
+    width: 40vw;
+    height: 150px;
+    background-color: #ffffff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .box-2 .b-2-2 .b-2-2-div-2 {
+    width: 40vw;
+    height: 150px;
+    background-color: #ffffff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .box-2 .b-2-2 .b-2-2-div-3 {
+    width: 40vw;
+    height: 130px;
+
+    background-color: #ffffff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: none;
+  }
+  .box-2 .b-2-2 .b-2-2-div-4 {
+    width: 40vw;
+    height: 130px;
+
+    background-color: #ffffff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: none;
+  }
+
+  .box-2 .b-2-2 p {
+    font-size: 1rem;
+
+    line-height: 20px;
+    letter-spacing: 0.224px;
+    padding: 0.4px;
+  }
+  .box-2 .b-2-2 .box-2-last-p {
+    margin-top: 10px;
+  }
+  .box-2 .b-2-2 .box2-div1-img {
+    height: 41px;
+    width: 55px;
+    background-image: url(../Images/S-7/Box-2/box-2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 10px;
+  }
+
+  /**
+*todo Box 1 div 3
+**/
+
+  .box-2 .b-2-3 {
+    width: 40vw;
+    height: 150px;
+    width: 98vw;
+
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    border-bottom: 2px solid white;
+    justify-content: space-between;
+  }
+
+  .box-2 .b-2-3 .b-2-3-div-1 {
+    width: 40vw;
+    height: 150px;
+    background-color: #ffffff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .box-2 .b-2-3 .b-2-3-div-2 {
+    width: 40vw;
+    height: 150px;
+    background-color: #ffffff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .box-2 .b-2-3 .b-2-3-div-3 {
+    width: 40vw;
+    height: 130px;
+
+    background-color: #ffffff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: none;
+  }
+  .box-2 .b-2-3 .b-2-3-div-4 {
+    width: 40vw;
+    height: 130px;
+
+    background-color: #ffffff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: none;
+  }
+
+  .box-2 .b-2-3 p {
+    font-size: 1rem;
+
+    line-height: 20px;
+    letter-spacing: 0.224px;
+    padding: 0.4px;
+  }
+  .box-2 .b-2-3 .box-3-last-p {
+    margin-top: 10px;
+  }
+  .box-2 .b-2-3 .box3-div1-img {
+    height: 38px;
+    width: 38px;
+    background-image: url(../Images/S-7/Box-3/Box-3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 10px;
+  }
+
+  /**
+*todo Box 1 div 4
+**/
+  .box-2 .b-2-4 {
+    width: 40vw;
+    height: 150px;
+    width: 98vw;
+
+    display: flex;
+    align-items: center;
+    /* background-color: #5d1515; */
+    border-bottom: 2px solid white;
+    justify-content: space-between;
+  }
+
+  .box-2 .b-2-4 .b-2-4-div-1 {
+    width: 40vw;
+    height: 150px;
+    /* background-color: #d51c1c; */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .box-2 .b-2-4 .b-2-4-div-2 {
+    width: 40vw;
+    height: 150px;
+    /* background-color: #710c0c; */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .box-2 .b-2-4 .b-2-4-div-3 {
+    width: 40vw;
+    height: 130px;
+
+    background-color: #0821c6;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: none;
+  }
+  .box-2 .b-2-4 .b-2-4-div-4 {
+    width: 40vw;
+    height: 130px;
+
+    background-color: #a50da3;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: none;
+  }
+
+  .box-2 .b-2-4 p {
+    font-size: 1rem;
+    line-height: 20px;
+    letter-spacing: 0.224px;
+    padding: 0.4px;
+  }
+
+  .box-2 .b-2-4 .box4-div1-img {
+    height: 38px;
+    width: 38px;
+    background-image: url(../Images/S-7/Box-4/1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 10px;
+  }
+  .box-2 .b-2-4 .box4-div2-img {
+    height: 38px;
+    width: 38px;
+    background-image: url(../Images/S-7/Box-4/2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 10px;
+  }
+  .box-2 .b-2-4 .box4-div3-img {
+    height: 38px;
+    width: 38px;
+    background-image: url(../Images/S-7/Box-4/3&4.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 10px;
+  }
+  .box-2 .b-2-4 .box4-div4-img {
+    height: 38px;
+    width: 38px;
+    background-image: url(../Images/S-7/Box-4/3&4.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 10px;
+  }
+}

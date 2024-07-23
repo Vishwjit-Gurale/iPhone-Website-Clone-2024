@@ -1,0 +1,212 @@
+.section-3 {
+  position: relative;
+  width: 100%;
+  height: 800px;
+  background-color: #000000;
+}
+
+.main {
+  width: 980px;
+  height: 620px;
+  background-color: #000000;
+  margin: 0 auto;
+}
+
+.main .top {
+  height: 300px;
+  width: 100%;
+  background-color: #000000;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 5%;
+}
+
+.sub-top {
+  display: flex;
+  align-items: center;
+  height: auto;
+  width: 333px;
+  flex-direction: column;
+  background-color: #000000;
+}
+
+.top .ne-tex {
+  color: #df5a00;
+  width: 100%;
+  font-size: 12px;
+  letter-spacing: 0.01em;
+  background-color: #000000;
+  /* line-height: 20.33px; */
+  font-weight: 400;
+  padding: 3px;
+  display: flex;
+  justify-content: center;
+}
+
+.sub-top .pro-15 {
+  width: 100%;
+  height: auto;
+  background-color: #000000;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin: 7px 0px;
+}
+
+.sub-top .tit-img {
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #000000;
+  margin: 7px 0px;
+}
+
+.sub-top .para {
+  line-height: 28px;
+  font-size: 20px;
+  text-align: center;
+  display: flex;
+  background-color: #000000;
+  width: auto;
+  height: auto;
+  color: #efeff1;
+  margin: 7px 0px;
+  padding-bottom: 15px;
+}
+
+.sub-top .btn-link {
+  height: 80px;
+  width: 333px;
+  line-height: 25px;
+  font-size: 17px;
+  background-color: #000000;
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sub-top .btn-link a {
+  text-decoration: none;
+  font-size: 21px;
+  color: #2997ff;
+}
+
+.sub-top .btn-link a:hover {
+  text-decoration: underline;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.btn button {
+  overflow: hidden;
+  padding: 8px 15px;
+  font-size: 18px;
+  border-radius: 100px;
+  background-color: #0077ed;
+  color: #ffffff;
+  border: none;
+}
+
+/**
+* todo background Image 
+*/
+
+.main .bottom {
+  position: relative;
+  height: 280px;
+  width: 100%;
+  background-color: #000000;
+  container-type: inline-size;
+}
+
+@media (min-width: 1061.96px) and (max-width: 10800px) {
+  .section-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .main .bottom .img {
+    position: absolute;
+    height: 280px;
+    width: 1075px;
+    margin-left: 11vw;
+    display: flex;
+    background-color: #000000;
+    background-image: url(../Images/S-3/iPhone-3.jpg);
+    background-repeat: no-repeat;
+    container-type: inline-size;
+  }
+}
+
+@media (min-width: 730.99px) and (max-width: 1061.94px) {
+  .section-3 {
+    background-color: #000000;
+    height: 750px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .main {
+    width: 690px;
+    height: 520px;
+    background-color: #000000;
+  }
+
+  .main .bottom .img {
+    position: absolute;
+    height: 221px;
+    width: 800px;
+    margin-left: 7vw;
+    display: flex;
+    background-size: cover;
+    background-color: #000000;
+    background-image: url(../Images/S-3/iPhone-3.jpg);
+    background-repeat: no-repeat;
+    container-type: inline-size;
+  }
+}
+
+@media screen and (max-width: 730.2px) {
+  .section-3 {
+    background-color: #000000;
+    height: 870px;
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    overflow: hidden;
+  }
+  .main {
+    width: 690px;
+    height: 520px;
+    background-color: #000000;
+    margin-top: 10px;
+  }
+
+  .main .bottom {
+    display: flex;
+    justify-content: center;
+    height: 550px;
+  }
+
+  .main .bottom .img {
+    position: relative;
+    height: 550px;
+    width: 130px;
+    margin: 0 auto;
+    display: flex;
+    background-image: url(../Images/S-3/iPhone-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}

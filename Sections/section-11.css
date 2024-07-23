@@ -1,0 +1,865 @@
+@media (min-width: 1061px) and (max-width: 10800px) {
+  .section-11 {
+    position: relative;
+    height: auto;
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .s11-aside {
+    height: 230px;
+    width: 80%;
+    /* background-color: #FFFFFF; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .s11-aside p {
+    font-size: 45px;
+    line-height: 50px;
+    font-weight: 600;
+    letter-spacing: 0.155px;
+  }
+
+  .section-11 .s11-main1 {
+    position: relative;
+    height: auto;
+    width: 92%;
+    /* background-color: blue; */
+    display: flex;
+    margin-bottom: 15px;
+    /* flex-direction: row-reverse; */
+  }
+
+  .s11-main1 .s11-m1-text {
+    height: 580px;
+    width: 70%;
+    /* background-color: cadetblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .s11-m1-text div {
+    height: 200px;
+    width: 400px;
+    /* background-color: yellowgreen; */
+    text-align: center;
+    word-wrap: break-word;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .s11-m1-text div .s11-m1-hedp {
+    height: 55px;
+    width: 400px;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: 0.144px;
+  }
+  .s11-m1-text div .s11-m1-para {
+    font-size: 21px;
+    line-height: 29px;
+    letter-spacing: 0.231px;
+
+    height: 87px;
+    width: 330px;
+    text-align: center;
+  }
+  .s11-m1-text div .s11-m1-a {
+    font-size: 21px;
+    line-height: 29px;
+    letter-spacing: 0.231px;
+    color: #0066cc;
+    text-decoration: none;
+  }
+
+  .s11-m1-text div .s11-m1-a:hover {
+    text-decoration: underline;
+  }
+
+  .s11-main1 .s11-m1-img {
+    height: 580px;
+    width: 80%;
+    /* background-color: sandybrown; */
+    display: flex;
+    justify-content: safe;
+    align-items: end;
+  }
+
+  .s11-m1-img div {
+    height: 560px;
+    width: 700px;
+    /* background-color: yellowgreen; */
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(../Images/S-11/main-1.1.jpg);
+    background-position-y: bottom;
+  }
+
+  /* todo main 2 start */
+
+  .section-11 .s11-main2 {
+    position: relative;
+    height: auto;
+    width: 92%;
+    /* background-color: blue; */
+    display: flex;
+    margin-bottom: 15px;
+    flex-direction: row-reverse;
+  }
+
+  .s11-main2 .s11-m2-text {
+    height: 580px;
+    width: 60%;
+    /* background-color: cadetblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .s11-m2-text div {
+    height: 250px;
+    width: 400px;
+    /* background-color: yellowgreen; */
+    text-align: center;
+    word-wrap: break-word;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .s11-m2-text div .s11-m2-hedp {
+    height: 55px;
+    width: 400px;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: 0.144px;
+  }
+  .s11-m2-text div .s11-m2-para {
+    font-size: 21px;
+    line-height: 29px;
+    letter-spacing: 0.231px;
+    height: 87px;
+    width: 330px;
+    text-align: center;
+  }
+  .s11-m2-text div .s11-m2-a {
+    font-size: 21px;
+    line-height: 29px;
+    letter-spacing: 0.231px;
+    color: #0066cc;
+    text-decoration: none;
+    margin-top: 30px;
+  }
+
+  .s11-m2-text div .s11-m2-a:hover {
+    text-decoration: underline;
+  }
+
+  .s11-main2 .s11-m2-img {
+    height: 580px;
+    width: 75%;
+    /* background-color: sandybrown; */
+    display: flex;
+    /* justify-content: safe; */
+    align-items: start;
+  }
+
+  .s11-m2-img div {
+    height: 560px;
+    width: 850px;
+    /* background-color: yellowgreen; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../Images/S-11//main-2.1.jpg);
+    /* background-position-y: bottom; */
+  }
+
+  .s11-main3 {
+    position: relative;
+    height: 680px;
+    width: 92%;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    /* justify-content: center; */
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: 80%;
+    background-position-x: center;
+    background-position-y: center;
+    background-image: url(../Images/S-11/main-3.1.jpg);
+  }
+
+  .s11-m3-text {
+    /* position: relative; */
+    height: 280px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: c; */
+    align-items: center;
+    /* background-color: blue; */
+    margin-top: 15px;
+  }
+
+  .s11-m3-text div {
+    /* position: relative; */
+    height: 250px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: darkgoldenrod; */
+  }
+
+  .s11-m3-text div .s11-m3-hed-p {
+    height: 104px;
+    width: 280px;
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 52.0077px;
+    text-align: center;
+  }
+
+  .s11-m3-text div .s11-m3-para {
+    height: 60px;
+    width: 300px;
+
+    font-size: 21px;
+    line-height: 29px;
+    letter-spacing: 0.231px;
+    text-align: center;
+  }
+  .s11-m3-text div .s11-m3-a {
+    font-size: 21px;
+    line-height: 29px;
+    letter-spacing: 0.231px;
+    color: #0066cc;
+    text-decoration: none;
+    margin-bottom: 15px;
+  }
+
+  .s11-m3-text div .s11-m3-a:hover {
+    text-decoration: underline;
+  }
+
+  .s11-m3-img {
+    /* position: relative; */
+    height: 550px;
+    width: 1063px;
+    display: flex;
+    /* background-color: wheat; */
+    display: none;
+  }
+  .section-11 .s11-bottom-link {
+    height: 80px;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    /* background-color: aqua; */
+  }
+  .s11-bottom-link a {
+    color: #0066ce;
+    text-align: center;
+    font-size: 24px;
+    letter-spacing: 0.22px;
+    line-height: 32px;
+    text-decoration: none;
+    word-wrap: break-word;
+  }
+  .s11-bottom-link a:hover {
+    text-decoration: underline;
+  }
+}
+@media (min-width: 731px) and (max-width: 1060.99px) {
+  .section-11 {
+    position: relative;
+    height: auto;
+    width: 100%;
+    /* background-color: #ffffff; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .s11-aside {
+    height: 160px;
+    width: 80%;
+    /* background-color: slategrey; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .s11-aside p {
+    font-size: 37px;
+    line-height: 40px;
+    font-weight: 600;
+    letter-spacing: 0.155px;
+  }
+
+  .section-11 .s11-main1 {
+    position: relative;
+    height: 400px;
+    width: 85%;
+    /* background-color: blue; */
+    display: flex;
+    margin-bottom: 15px;
+    /* flex-direction: row-reverse; */
+  }
+
+  .s11-main1 .s11-m1-text {
+    height: 400px;
+    width: 380px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* justify-content: center;
+    align-items: center; */
+  }
+
+  .s11-m1-text div {
+    height: 200px;
+    width: 320px;
+    /* background-color: rgb(81, 50, 205); */
+    text-align: center;
+    word-wrap: break-word;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .s11-m1-text div .s11-m1-hedp {
+    height: 36px;
+    width: 370px;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 34px;
+    letter-spacing: 0.144px;
+  }
+  .s11-m1-text div .s11-m1-para {
+    font-size: 17px;
+    line-height: 25px;
+    letter-spacing: 0.237px;
+
+    height: 75px;
+    width: 245px;
+    text-align: center;
+  }
+  .s11-m1-text div .s11-m1-a {
+    font-size: 17px;
+    line-height: 25px;
+    letter-spacing: 0.22px;
+    color: #0066cc;
+    text-decoration: none;
+  }
+
+  .s11-m1-text div .s11-m1-a:hover {
+    text-decoration: underline;
+  }
+
+  .s11-main1 .s11-m1-img {
+    height: 400px;
+    width: 390px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: end;
+  }
+
+  .s11-m1-img div {
+    height: 320px;
+    width: 100%;
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../Images/S-11/laptop/main-1.jpg);
+    background-position-y: bottom;
+  }
+
+  /* todo main 2 start */
+
+  .section-11 .s11-main2 {
+    position: relative;
+    height: 400px;
+    width: 75%;
+    background-color: #ffffff;
+    display: flex;
+    /* margin: 0 auto; */
+    margin-bottom: 15px;
+    flex-direction: row-reverse;
+  }
+
+  .s11-main2 .s11-m2-text {
+    height: 400px;
+    width: 380px;
+    /* background-color: cadetblue; */
+    display: flex;
+    align-items: center;
+    /* justify-content: center;
+    align-items: center; */
+  }
+
+  .s11-m2-text div {
+    height: 165px;
+    width: 330px;
+    background-color: #ffffff;
+    text-align: center;
+    word-wrap: break-word;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+  }
+
+  .s11-m2-text div .s11-m2-hedp {
+    height: 36px;
+    width: 370px;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 34px;
+    letter-spacing: 0.144px;
+  }
+  .s11-m2-text div .s11-m2-para {
+    font-size: 17px;
+    line-height: 25px;
+    letter-spacing: 0.237px;
+
+    height: 75px;
+    width: 330px;
+    text-align: center;
+  }
+  .s11-m2-text div .s11-m2-a {
+    font-size: 17px;
+    line-height: 25px;
+    letter-spacing: 0.22px;
+    color: #0066cc;
+    text-decoration: none;
+  }
+
+  .s11-m2-text div .s11-m2-a:hover {
+    text-decoration: underline;
+  }
+
+  .s11-main2 .s11-m2-img {
+    height: 400px;
+    width: 75%;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+  }
+
+  .s11-m2-img div {
+    height: 378px;
+    width: 427px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../Images/S-11/laptop/main-2.jpg);
+  }
+
+  /* todo three 3 */
+
+  .s11-main3 {
+    position: relative;
+    height: 400px;
+    width: 75%;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: 80% 66%;
+    background-position-x: center;
+    background-position-y: bottom;
+    background-image: url(../Images/S-11/laptop/main-3.jpg);
+  }
+
+  .s11-m3-text {
+    /* position: relative; */
+    height: 165px;
+    width: 370px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    /* background-color: #FFFFFF; */
+    margin-top: 15px;
+  }
+
+  .s11-m3-text div {
+    /* position: relative; */
+    height: 250px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: darkgoldenrod; */
+  }
+
+  .s11-m3-text div .s11-m3-hed-p {
+    height: 72px;
+    width: 240px;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 34px;
+    letter-spacing: 0.144px;
+    text-align: center;
+  }
+
+  .s11-m3-text div .s11-m3-para {
+    font-size: 17px;
+    line-height: 25px;
+    letter-spacing: 0.237px;
+    height: 50px;
+    width: 240px;
+    text-align: center;
+  }
+  .s11-m3-text div .s11-m3-a {
+    font-size: 17px;
+    line-height: 25px;
+    letter-spacing: 0.22px;
+    color: #0066cc;
+    text-decoration: none;
+  }
+
+  .s11-m3-text div .s11-m3-a:hover {
+    text-decoration: underline;
+  }
+
+  .s11-m3-img {
+    /* position: relative; */
+    height: 550px;
+    width: 1063px;
+    display: flex;
+    /* background-color: #FFFFFF; */
+    display: none;
+  }
+  .section-11 .s11-bottom-link {
+    height: 80px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    /* background-color: #FFFFFF; */
+  }
+  .s11-bottom-link a {
+    color: #0066ce;
+    text-align: center;
+    font-size: 17px;
+    line-height: 25px;
+    letter-spacing: 0.237px;
+    text-decoration: none;
+    word-wrap: break-word;
+  }
+  .s11-bottom-link a:hover {
+    text-decoration: underline;
+  }
+}
+@media screen and (max-width: 730.99px) {
+  .section-11 {
+    position: relative;
+    height: auto;
+    width: 100%;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .s11-aside {
+    height: 160px;
+    width: 40%;
+    /* background-color: slategrey; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .s11-aside p {
+    font-size: 30px;
+    line-height: 35px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 0.125px;
+  }
+
+  .section-11 .s11-main1 {
+    position: relative;
+    height: auto;
+    width: 80%;
+    background-color: #ffffff;
+    display: flex;
+    margin-bottom: 15px;
+    flex-direction: column;
+  }
+
+  .s11-main1 .s11-m1-text {
+    height: 230px;
+    width: 100%;
+    /* background-color: cadetblue; */
+    display: flex;
+    align-items: end;
+    justify-content: center;
+  }
+
+  .s11-m1-text div {
+    height: 200px;
+    width: 230px;
+    background-color: #ffffff;
+    text-align: center;
+    word-wrap: break-word;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .s11-m1-text div .s11-m1-hedp {
+    height: 36px;
+    width: 200px;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0.144px;
+  }
+  .s11-m1-text div .s11-m1-para {
+    font-size: 17px;
+    line-height: 25px;
+    letter-spacing: 0.237px;
+    height: 75px;
+    width: 245px;
+    text-align: center;
+  }
+  .s11-m1-text div .s11-m1-a {
+    font-size: 17px;
+    line-height: 25px;
+    letter-spacing: 0.22px;
+    color: #0066cc;
+    text-decoration: none;
+  }
+
+  .s11-m1-text div .s11-m1-a:hover {
+    text-decoration: underline;
+  }
+
+  .s11-main1 .s11-m1-img {
+    height: 200px;
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+  }
+
+  .s11-m1-img div {
+    height: 182px;
+    width: 233px;
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../Images/S-11/Mobile/main1.jpg);
+    background-position-y: bottom;
+  }
+
+  /* todo main 2 start */
+
+  .section-11 .s11-main2 {
+    position: relative;
+    height: auto;
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    margin-bottom: 15px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .s11-main2 .s11-m2-text {
+    height: 260px;
+    width: 330px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    justify-content: space-between;
+  }
+
+  .s11-m2-text div {
+    height: 220px;
+    width: 330px;
+    background-color: #ffffff;
+    text-align: center;
+    word-wrap: break-word;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .s11-m2-text div .s11-m2-hedp {
+    height: 36px;
+    width: 370px;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 34px;
+    letter-spacing: 0.144px;
+  }
+  .s11-m2-text div .s11-m2-para {
+    font-size: 16px;
+    line-height: 25px;
+    height: 110px;
+    width: 230px;
+    text-align: center;
+  }
+  .s11-m2-text div .s11-m2-a {
+    font-size: 17px;
+    line-height: 25px;
+    letter-spacing: 0.22px;
+    color: #0066cc;
+    text-decoration: none;
+  }
+
+  .s11-m2-text div .s11-m2-a:hover {
+    text-decoration: underline;
+  }
+
+  .s11-main2 .s11-m2-img {
+    height: auto;
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    align-items: start;
+  }
+
+  .s11-m2-img div {
+    height: 378px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../Images/S-11/Mobile/main2.jpg);
+  }
+
+  /* todo three 3 */
+
+  .s11-main3 {
+    position: relative;
+    height: auto;
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .s11-m3-text {
+    height: 200px;
+    width: 330px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    justify-content: space-evenly;
+  }
+
+  .s11-m3-text div {
+    height: 170px;
+    width: 330px;
+    background-color: #ffffff;
+    text-align: center;
+    word-wrap: break-word;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .s11-m3-text div .s11-m3-hed-p {
+    height: 72px;
+    width: 200px;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0.144px;
+    text-align: center;
+  }
+
+  .s11-m3-text div .s11-m3-para {
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0.237px;
+    height: 50px;
+    width: 220px;
+    text-align: center;
+  }
+  .s11-m3-text div .s11-m3-a {
+    font-size: 17px;
+    line-height: 25px;
+    letter-spacing: 0.22px;
+    color: #0066cc;
+    text-decoration: none;
+  }
+
+  .s11-m3-text div .s11-m3-a:hover {
+    text-decoration: underline;
+  }
+
+  .s11-m3-img {
+    height: 240px;
+    width: 100%;
+    display: flex;
+    background-color: #ffffff;
+    /* display: none; */
+    background-image: url(../Images/S-11/Mobile/main3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .section-11 .s11-bottom-link {
+    height: 80px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    /* background-color: #FFFFFF; */
+  }
+  .s11-bottom-link a {
+    color: #0066ce;
+    text-align: center;
+    font-size: 17px;
+    line-height: 25px;
+    letter-spacing: 0.237px;
+    text-decoration: none;
+    word-wrap: break-word;
+  }
+  .s11-bottom-link a:hover {
+    text-decoration: underline;
+  }
+}

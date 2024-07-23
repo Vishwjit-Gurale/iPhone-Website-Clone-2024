@@ -1,0 +1,137 @@
+/* article 
+  1) one 0  to 300
+  2) two 331 to 730
+  3) three 731 to 
+
+*/
+
+.section-2 {
+  position: relative;
+  width: 100%;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  /* background-color: #f5f5f7; */
+  background-color: #f5f5f7;
+}
+/**
+*todo article One 
+*/
+
+.section-2 .one {
+  position: absolute;
+  width: 80vw;
+  height: 70px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f5f7;
+  display: none;
+}
+.section-2 .one div {
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3.7vw;
+  padding-bottom: 3px;
+}
+.section-2 .one div a {
+  text-decoration: none;
+}
+
+.section-2 .one div a:hover {
+  text-decoration: underline;
+}
+
+/**
+*todo article two
+*/
+
+.section-2 .two {
+  position: absolute;
+  width: 92vw;
+  min-width: 40vw;
+  height: 70px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f5f7;
+  display: none;
+}
+.section-2 .two div {
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  padding-bottom: 5px;
+}
+.section-2 .two div a {
+  text-decoration: none;
+}
+
+.section-2 .two div a:hover {
+  text-decoration: underline;
+}
+
+/**
+*todo article three
+*/
+
+.section-2 .three {
+  position: absolute;
+  width: 80vw;
+  height: 80px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #f5f5f7;
+}
+.section-2 .three div {
+  width: auto;
+  height: auto;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  padding-top: 3px;
+}
+.section-2 .three div a {
+  text-decoration: none;
+}
+
+.section-2 .three div a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 330px) {
+  /* one */
+  .section-2 .one {
+    display: inherit;
+  }
+  .section-2 .three {
+    display: none;
+  }
+}
+@media (min-width: 331px) and (max-width: 730px) {
+  /* two */
+  .section-2 .two {
+    display: inherit;
+  }
+  .section-2 .three {
+    display: none;
+  }
+}

@@ -1,0 +1,75 @@
+.section-1 {
+  height: 130px;
+  width: 100%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "text-light";
+  gap: 50px;
+  overflow-x: scroll;
+}
+
+.section-1::-webkit-scrollbar {
+  display: none;
+}
+
+
+.section-1 .slid-div {
+  width: 996px;
+  height: 130px;
+  background: #ffffff;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.section-1 .slid-img div img {
+  text-align: center;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+}
+.section-1 .slid-div .img-div a img {
+  object-fit: cover;
+}
+
+.section-1 .slid-div .img-div .nText a {
+  color: #c1510d;
+  font-size: 12px;
+}
+.section-1 .img-div a {
+  text-decoration: none;
+  color: #1d1d1f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+}
+
+.section-1 .img-div .hed:hover {
+  text-decoration: none;
+  color: #1d1d1f;
+  color: #1b76d1;
+}
+@media screen and (max-width: 850px) {
+  .section-1 {
+    display: flex;
+    /* gap: 50px; */
+    overflow-x: scroll;
+  }
+  .section-1::-webkit-scrollbar {
+    display: none;
+  }
+  .section-1 .slid-div {
+    width: 100%;
+  }
+
+  .section-1 .slid-div .img-div div {
+    width: 100px;
+  }
+}

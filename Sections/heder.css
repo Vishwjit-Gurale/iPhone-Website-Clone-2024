@@ -1,0 +1,703 @@
+header {
+  height: 44px;
+  width: 100%;
+  position: relative;
+  top: 0;
+  /* background-color: #f2f2f2; */
+  display: flex;
+  z-index: 100;
+}
+
+nav a {
+  color: #000000;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+nav {
+  height: 100%;
+  width: 996px;
+  display: flex;
+  font-size: 14px;
+  font-weight: 200;
+  align-items: center;
+  justify-content: space-evenly;
+  color: #000000;
+  margin: 0 auto;
+  z-index: 88;
+  /* background-color: steelblue; */
+}
+
+nav .icon-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  width: 75px;
+}
+
+nav #grip-icon {
+  display: none;
+}
+
+nav div i {
+  text-decoration: none;
+  color: #000000;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+nav a i {
+  font-size: 16px;
+}
+
+#slid-nav {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  background-color: #fbfbfd;
+  display: none;
+  z-index: 55;
+  top: -110vw;
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) 1.6s;
+}
+
+/**
+* start Header SubMenu **********
+**/
+
+/*! sub-section use some javaScript  */
+
+#sub-section {
+  position: absolute;
+  /* top: -100%; */
+  width: 100%;
+  z-index: 55;
+  height: 400px;
+  background-color: #ffffff;
+  visibility: hidden;
+}
+
+#sub-section #sub-bottom {
+  height: 50vh;
+  width: 100%;
+  /* position: absolute; */
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+#sub-section #sub-top {
+  position: relative;
+  height: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff;
+}
+
+/**
+* start Store NavMenu
+*/
+
+#sub-section .store-div {
+  height: 380px;
+  width: 996px;
+  margin: 0 auto;
+  padding-left: 70px;
+  padding-top: 50px;
+  display: flex;
+  position: relative;
+  gap: 4%;
+  background-color: #ffffff;
+  visibility: hidden;
+  /* z-index: 30; */
+}
+
+#sub-section .store-div a,
+li {
+  text-decoration: none;
+  list-style: none;
+  font-size: 14px;
+  font-weight: 530;
+  color: #000000;
+  line-height: 23px;
+}
+
+#sub-section .store-div .hed {
+  font-size: 13px;
+  color: #808080;
+  padding-bottom: 14px;
+}
+
+#sub-section .store-div .div-one a {
+  font-size: 23px;
+  font-family: "semibold";
+  line-height: 4vw;
+  line-height: 34px;
+}
+
+/**
+* start Mac NavMenu
+*/
+
+#sub-section .mac-div {
+  height: 380px;
+  width: 996px;
+  margin: 0 auto;
+
+  padding-left: 60px;
+  padding-top: 50px;
+
+  display: flex;
+  position: absolute;
+  gap: 4%;
+  background-color: #ffffff;
+  visibility: hidden;
+  /* z-index: 31; */
+}
+
+#sub-section .mac-div a,
+li {
+  text-decoration: none;
+  list-style: none;
+  font-size: 14px;
+  font-weight: 530;
+  color: #000000;
+  line-height: 23px;
+}
+
+#sub-section .mac-div .hed {
+  font-size: 13px;
+  color: #808080;
+  padding-bottom: 14px;
+}
+
+#sub-section .mac-div .div-one .hh {
+  font-size: 13px;
+  color: #808080;
+  margin-top: 10px;
+}
+
+#sub-section .mac-div .div-one a {
+  font-size: 23px;
+  font-family: "semibold";
+  line-height: 4vw;
+  line-height: 34px;
+}
+
+/**
+* start ipad NavMenu
+*/
+
+#sub-section .ipad-div {
+  height: 380px;
+  width: 996px;
+  margin: 0 auto;
+  padding-left: 60px;
+  padding-top: 50px;
+  display: flex;
+  position: absolute;
+  gap: 4%;
+  background-color: #ffffff;
+  visibility: hidden;
+  /* z-index: 32; */
+}
+
+#sub-section .ipad-div a,
+li {
+  text-decoration: none;
+  list-style: none;
+  font-size: 14px;
+  font-weight: 530;
+  color: #000000;
+  line-height: 23px;
+}
+
+#sub-section .ipad-div .hed {
+  font-size: 13px;
+  color: #808080;
+  padding-bottom: 14px;
+}
+
+#sub-section .ipad-div .div-one a {
+  font-size: 23px;
+  font-family: "semibold";
+  line-height: 4vw;
+  line-height: 34px;
+}
+
+/**
+* start iphone NavMenu
+*/
+
+#sub-section .iphone-div {
+  height: 380px;
+  width: 996px;
+  margin: 0 auto;
+  padding-left: 60px;
+  padding-top: 50px;
+  display: flex;
+  position: absolute;
+  gap: 4%;
+  background-color: #ffffff;
+  visibility: hidden;
+  /* z-index: 33; */
+}
+
+#sub-section .iphone-div a,
+li {
+  text-decoration: none;
+  list-style: none;
+  font-size: 14px;
+  font-weight: 530;
+  color: #000000;
+  line-height: 23px;
+}
+
+#sub-section .iphone-div .hed {
+  font-size: 13px;
+  color: #808080;
+  padding-bottom: 14px;
+}
+
+#sub-section .iphone-div .div-one a {
+  font-size: 23px;
+  font-family: "semibold";
+  line-height: 4vw;
+  line-height: 34px;
+}
+
+/**
+* start Watch NavMenu
+*/
+
+#sub-section .watch-div {
+  height: 380px;
+  width: 996px;
+  margin: 0 auto;
+  padding-left: 60px;
+  padding-top: 50px;
+  display: flex;
+  position: absolute;
+  gap: 4%;
+  background-color: #ffffff;
+  visibility: hidden;
+  /* z-index: 35; */
+}
+
+#sub-section .watch-div a,
+li {
+  text-decoration: none;
+  list-style: none;
+  font-size: 14px;
+  font-weight: 530;
+  color: #000000;
+  line-height: 23px;
+}
+
+#sub-section .watch-div .hed {
+  font-size: 13px;
+  color: #808080;
+  padding-bottom: 14px;
+}
+
+#sub-section .watch-div .div-one a {
+  font-size: 23px;
+  font-family: "semibold";
+  line-height: 4vw;
+  line-height: 34px;
+}
+
+/**
+* start AirPods NavMenu
+*/
+
+#sub-section .pods-div {
+  height: 380px;
+  width: 996px;
+  margin: 0 auto;
+  padding-left: 60px;
+  padding-top: 50px;
+  display: flex;
+  position: absolute;
+  gap: 4%;
+  background-color: #ffffff;
+  visibility: hidden;
+  /* z-index: 35; */
+}
+
+#sub-section .pods-div a,
+li {
+  text-decoration: none;
+  list-style: none;
+  font-size: 14px;
+  font-weight: 530;
+  color: #000000;
+  line-height: 23px;
+}
+
+#sub-section .pods-div .hed {
+  font-size: 13px;
+  color: #808080;
+  padding-bottom: 14px;
+}
+
+#sub-section .pods-div .div-one a {
+  font-size: 23px;
+  font-family: "semibold";
+  line-height: 4vw;
+  line-height: 34px;
+}
+
+/**
+* start TV & Home NavMenu
+*/
+
+#sub-section .home-div {
+  height: 380px;
+  width: 996px;
+  margin: 0 auto;
+  padding-left: 60px;
+  padding-top: 50px;
+  display: flex;
+  position: absolute;
+  gap: 4%;
+  background-color: #ffffff;
+  visibility: hidden;
+  /* z-index: 15; */
+}
+
+#sub-section .home-div a,
+li {
+  text-decoration: none;
+  list-style: none;
+  font-size: 14px;
+  font-weight: 530;
+  color: #000000;
+  line-height: 23px;
+}
+
+#sub-section .home-div .hed {
+  font-size: 13px;
+  color: #808080;
+  padding-bottom: 14px;
+}
+
+#sub-section .home-div .div-one a {
+  font-size: 23px;
+  font-family: "semibold";
+  line-height: 4vw;
+  line-height: 34px;
+}
+
+/**
+* start Entreatment NavMenu
+*/
+
+#sub-section .enter-div {
+  height: 380px;
+  width: 996px;
+  margin: 0 auto;
+  padding-left: 60px;
+  padding-top: 50px;
+  display: flex;
+  position: absolute;
+  gap: 4%;
+  background-color: #ffffff;
+  visibility: hidden;
+  /* z-index: 16; */
+}
+
+#sub-section .enter-div a,
+li {
+  text-decoration: none;
+  list-style: none;
+  font-size: 14px;
+  font-weight: 530;
+  color: #000000;
+  line-height: 23px;
+}
+
+#sub-section .enter-div .hed {
+  font-size: 13px;
+  color: #808080;
+  padding-bottom: 14px;
+}
+
+#sub-section .enter-div .div-one a {
+  font-size: 23px;
+  font-family: "semibold";
+  line-height: 4vw;
+  line-height: 34px;
+}
+
+/**
+* start Accessories NavMenu
+*/
+
+#sub-section .access-div {
+  height: 380px;
+  width: 996px;
+  margin: 0 auto;
+  padding-left: 60px;
+  padding-top: 50px;
+  display: flex;
+  position: absolute;
+  gap: 4%;
+  background-color: #ffffff;
+  visibility: hidden;
+  /* z-index: 17; */
+}
+
+#sub-section .access-div a,
+li {
+  text-decoration: none;
+  list-style: none;
+  font-size: 14px;
+  font-weight: 530;
+  color: #000000;
+  line-height: 23px;
+}
+
+#sub-section .access-div .hed {
+  font-size: 13px;
+  color: #808080;
+  padding-bottom: 14px;
+}
+
+#sub-section .access-div .div-one a {
+  font-size: 23px;
+  font-family: "semibold";
+  line-height: 4vw;
+  line-height: 34px;
+}
+
+/**
+* start Accessories NavMenu
+*/
+
+#sub-section .support-div {
+  height: 380px;
+  width: 996px;
+  margin: 0 auto;
+  padding-left: 60px;
+  padding-top: 50px;
+  display: flex;
+  position: absolute;
+  gap: 4%;
+  background-color: #ffffff;
+  visibility: hidden;
+  /* z-index: 18; */
+}
+
+#sub-section .support-div a,
+li {
+  text-decoration: none;
+  list-style: none;
+  font-size: 14px;
+  font-weight: 530;
+  color: #000000;
+  line-height: 23px;
+}
+
+#sub-section .support-div .hed {
+  font-size: 13px;
+  color: #808080;
+  padding-bottom: 14px;
+}
+
+#sub-section .support-div .div-one a {
+  font-size: 23px;
+  font-family: "semibold";
+  line-height: 4vw;
+  line-height: 34px;
+}
+
+/**
+* todo Header mediaQuery Start      *******
+**/
+
+@media screen and (max-width: 430.99px) {
+  header {
+    width: 100vw;
+    height: 50px;
+  }
+
+  nav {
+    display: flex;
+    height: 100%;
+    width: 100vw;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  nav #apple {
+    /* width: 65vw; */
+    width: 45vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+
+    /* background: #000; */
+  }
+
+  nav #grip-icon {
+    display: initial;
+    padding-right: 15px;
+  }
+
+  nav .hed-text {
+    display: none;
+  }
+
+  nav div i {
+    font-size: 20px;
+  }
+  #slid-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    top: -100%;
+    padding: 40px 40px;
+    width: 100%;
+    overflow: scroll;
+  }
+
+  #slid-nav a {
+    font-size: 32px;
+    text-decoration: none;
+    color: #333336;
+  }
+  #slid-nav i {
+    position: sticky;
+    top: 40px;
+    display: flex;
+    justify-content: end;
+    font-size: 23px;
+  }
+
+  #sub-section {
+    display: none;
+  }
+}
+
+@media (min-width: 431px) and (max-width: 850px) {
+  header {
+    width: 100vw;
+    height: 50px;
+  }
+
+  nav {
+    display: flex;
+    height: 100%;
+    width: 100vw;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  nav #apple {
+    width: 65vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+
+    /* background: #000; */
+  }
+
+  nav #grip-icon {
+    display: initial;
+    padding-right: 15px;
+  }
+
+  nav .hed-text {
+    display: none;
+  }
+
+  nav div i {
+    font-size: 20px;
+  }
+
+  /*! slid-nav use some JavaScript  */
+
+  #slid-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    top: -100%;
+    padding: 40px 40px;
+    width: 100%;
+    overflow: scroll;
+  }
+
+  #slid-nav a {
+    font-size: 32px;
+    text-decoration: none;
+    color: #333336;
+  }
+  #slid-nav i {
+    position: sticky;
+    top: 40px;
+    display: flex;
+    justify-content: end;
+    font-size: 23px;
+  }
+
+  #sub-section {
+    display: none;
+  }
+}
+
+/**
+* todo mediaQuery Start By SubMenu in Header With Width Decrease      *******
+**/
+
+@media screen and (max-width: 1000px) {
+  #sub-section .store-div {
+    width: 100%;
+    z-index: 1;
+  }
+  #sub-section .mac-div {
+    width: 100%;
+    z-index: 2;
+  }
+  #sub-section .ipad-div {
+    width: 100%;
+    z-index: 3;
+  }
+  #sub-section .iphone-div {
+    width: 100%;
+    z-index: 4;
+  }
+  #sub-section .watch-div {
+    width: 100%;
+    z-index: 5;
+  }
+  #sub-section .pods-div {
+    width: 100%;
+    z-index: 6;
+  }
+  #sub-section .home-div {
+    width: 100%;
+    z-index: 7;
+  }
+  #sub-section .enter-div {
+    width: 100%;
+    z-index: 8;
+  }
+  #sub-section .access-div {
+    width: 100%;
+    z-index: 9;
+  }
+  #sub-section .support-div {
+    width: 100%;
+    z-index: 10;
+  }
+}

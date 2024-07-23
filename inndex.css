@@ -1,0 +1,56 @@
+@import url(./Sections/heder.css);
+@import url(./Sections/Section1.css);
+@import url(./Sections/Section-2.css);
+@import url(./Sections/section-3.css);
+@import url(./Sections/section-4.css);
+@import url(./Sections/section-5.css);
+@import url(./Sections/section-6.css);
+@import url(./Sections/section-7-part1.css);
+@import url(./Sections/section-7-part2.css);
+@import url(./Sections/section-8.css);
+@import url(./Sections/section-9.css);
+@import url(./Sections/section-10.css);
+@import url(./Sections/section-11.css);
+@import url(./Sections/section-12.css);
+@import url(./Sections/section-13.css);
+@import url(./Sections/section-14.css);
+@import url(./Sections/section-15.css);
+@import url(./Sections/section-16.css);
+/* @import url(./Sections/section-17.css); */
+@import url(./Sections/section-18.css);
+@import url(./Sections/section-19.css);
+@import url(./Sections/section-20.css);
+
+
+@font-face {
+  font-family: "navFont";
+  src: url(./Founts/sf-pro-icons_regular.ttf);
+}
+@font-face {
+  font-family: "semibold";
+  src: url(./Founts/sf-pro-display_semibold.ttf);
+}
+@font-face {
+  font-family: "text-light";
+  src: url(./Founts/sf-pro-text_light.ttf);
+}
+@font-face {
+  font-family: "text-semibold";
+  src: url(./Founts/sf-pro-text_semibold.ttf);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "navFont", sans-serif;
+  overflow: visible;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #F2F2F2;
+  /* background-color: gray; */
+}

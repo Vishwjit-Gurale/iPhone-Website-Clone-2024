@@ -1,0 +1,550 @@
+@media screen and (max-width: 830px) {
+  .section-19 {
+    height: auto;
+    width: 100%;
+    background-color: #f5f5f7;
+    display: flex;
+  }
+  .s19-main {
+    height: auto;
+    width: 98%;
+    display: flex;
+    /* background-color: steelblue; */
+    margin: 0 auto;
+    flex-direction: column;
+  }
+  .s19-div-1 {
+    height: 55px;
+    width: 100%;
+    background-color: #f5f5f7;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    line-height: 15px;
+    border-bottom: 1px solid #cececf;
+  }
+  .s19-div-1 figure {
+    height: 20px;
+    width: 13px;
+    background-image: url(../Images/Apple\ logo.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  /* start div 2*/
+
+  .s19-div-2 {
+    height: auto;
+    width: 98%;
+    /* background-color: red; */
+    margin: 0 auto;
+    display: flex;
+    padding-top: 5px;
+    flex-direction: column;
+  }
+
+  /* todo ul 1 */
+
+  .ul-1 {
+    width: 100%;
+    /* background-color: blanchedalmond; */
+    height: auto;
+    border-bottom: 1px solid #cececf;
+  }
+
+  .ul-1 p {
+    padding: 5px;
+    padding-left: 25px;
+    font-size: 12px;
+    line-height: 15px;
+    color: #69696a;
+  }
+  .ul-1 label {
+    color: #69696a;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 5px 0px;
+  }
+  .ul-1 span {
+    height: 20px;
+    width: 25px;
+    background-image: url(../Images/down-Arrow.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .ul-1 input[type="checkbox"] {
+    display: none;
+  }
+  .ul-1 .div1 {
+    max-height: 0px;
+    overflow: hidden;
+  }
+
+  .ul-1 input[type="checkbox"]:checked + .div1 {
+    max-height: 300px;
+  }
+
+  /* todo ul 2 */
+
+  .ul-2 {
+    width: 100%;
+    /* background-color: blanchedalmond; */
+    height: auto;
+    border-bottom: 1px solid #cececf;
+  }
+
+  .ul-2 p {
+    padding: 5px;
+    padding-left: 25px;
+    font-size: 12px;
+    line-height: 15px;
+    color: #69696a;
+  }
+  .ul-2 label {
+    color: #69696a;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 5px 0px;
+  }
+  .ul-2 span {
+    height: 20px;
+    width: 25px;
+    background-image: url(../Images/down-Arrow.svg);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .ul-2 input[type="checkbox"] {
+    display: none;
+  }
+  .ul-2 .div2 {
+    max-height: 0px;
+    overflow: hidden;
+  }
+
+  .ul-2 input[type="checkbox"]:checked + .div2 {
+    max-height: 300px;
+  }
+
+  /* todo ul 3 */
+
+  .ul-3 {
+    width: 100%;
+    /* background-color: blanchedalmond; */
+    height: auto;
+    border-bottom: 1px solid #cececf;
+  }
+
+  .ul-3 p {
+    padding: 5px;
+    padding-left: 25px;
+    font-size: 12px;
+    line-height: 15px;
+    color: #69696a;
+  }
+  .ul-3 label {
+    color: #69696a;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 5px 0px;
+  }
+  .ul-3 span {
+    height: 20px;
+    width: 25px;
+    background-image: url(../Images/down-Arrow.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .ul-3 input[type="checkbox"] {
+    display: none;
+  }
+  .ul-3 .div3 {
+    max-height: 0px;
+    overflow: hidden;
+  }
+
+  .ul-3 input[type="checkbox"]:checked + .div3 {
+    max-height: 300px;
+  }
+  /* todo ul 4 */
+
+  .ul-4 {
+    width: 100%;
+    /* background-color: blanchedalmond; */
+    height: auto;
+    border-bottom: 1px solid #cececf;
+  }
+
+  .ul-4 p {
+    padding: 5px;
+    padding-left: 25px;
+    font-size: 12px;
+    line-height: 15px;
+    color: #69696a;
+  }
+  .ul-4 label {
+    color: #69696a;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 5px 0px;
+  }
+  .ul-4 span {
+    height: 20px;
+    width: 25px;
+    background-image: url(../Images/down-Arrow.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .ul-4 input[type="checkbox"] {
+    display: none;
+  }
+  .ul-4 .div4 {
+    max-height: 0px;
+    overflow: hidden;
+  }
+
+  .ul-4 input[type="checkbox"]:checked + .div4 {
+    max-height: 300px;
+  }
+  /* todo ul 5 */
+
+  .ul-5 {
+    width: 100%;
+    /* background-color: blanchedalmond; */
+    height: auto;
+    border-bottom: 1px solid #cececf;
+  }
+
+  .ul-5 p {
+    padding: 5px;
+    padding-left: 25px;
+    font-size: 12px;
+    line-height: 15px;
+    color: #69696a;
+  }
+  .ul-5 label {
+    color: #69696a;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 5px 0px;
+  }
+  .ul-5 span {
+    height: 20px;
+    width: 25px;
+    background-image: url(../Images/down-Arrow.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .ul-5 input[type="checkbox"] {
+    display: none;
+  }
+  .ul-5 .div5 {
+    max-height: 0px;
+    overflow: hidden;
+  }
+
+  .ul-5 input[type="checkbox"]:checked + .div5 {
+    max-height: 300px;
+  }
+  /* todo ul 6 */
+  .ul-6 {
+    width: 100%;
+    /* background-color: blanchedalmond; */
+    height: auto;
+    border-bottom: 1px solid #cececf;
+  }
+
+  .ul-6 p {
+    padding: 5px;
+    padding-left: 25px;
+    font-size: 12px;
+    line-height: 15px;
+    color: #69696a;
+  }
+  .ul-6 label {
+    color: #69696a;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 5px 0px;
+  }
+  .ul-6 span {
+    height: 20px;
+    width: 25px;
+    background-image: url(../Images/down-Arrow.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .ul-6 input[type="checkbox"] {
+    display: none;
+  }
+  .ul-6 .div6 {
+    max-height: 0px;
+    overflow: hidden;
+  }
+
+  .ul-6 input[type="checkbox"]:checked + .div6 {
+    max-height: 300px;
+  }
+  /* todo ul 7 */
+  .ul-7 {
+    width: 100%;
+    /* background-color: blanchedalmond; */
+    height: auto;
+    border-bottom: 1px solid #cececf;
+  }
+
+  .ul-7 p {
+    padding: 5px;
+    padding-left: 25px;
+    font-size: 12px;
+    line-height: 15px;
+    color: #69696a;
+  }
+  .ul-7 label {
+    color: #69696a;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 5px 0px;
+  }
+  .ul-7 span {
+    height: 20px;
+    width: 25px;
+    background-image: url(../Images/down-Arrow.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .ul-7 input[type="checkbox"] {
+    display: none;
+  }
+  .ul-7 .div7 {
+    max-height: 0px;
+    overflow: hidden;
+  }
+
+  .ul-7 input[type="checkbox"]:checked + .div7 {
+    max-height: 300px;
+  }
+  /* todo ul 8 */
+  .ul-8 {
+    width: 100%;
+    /* background-color: blanchedalmond; */
+    height: auto;
+    border-bottom: 1px solid #cececf;
+  }
+
+  .ul-8 p {
+    padding: 5px;
+    padding-left: 25px;
+    font-size: 12px;
+    line-height: 15px;
+    color: #69696a;
+  }
+  .ul-8 label {
+    color: #69696a;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 5px 0px;
+  }
+  .ul-8 span {
+    height: 20px;
+    width: 25px;
+    background-image: url(../Images/down-Arrow.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .ul-8 input[type="checkbox"] {
+    display: none;
+  }
+  .ul-8 .div8 {
+    max-height: 0px;
+    overflow: hidden;
+  }
+
+  .ul-8 input[type="checkbox"]:checked + .div8 {
+    max-height: 300px;
+  }
+  /* todo ul 9 */
+  .ul-9 {
+    width: 100%;
+    /* background-color: blanchedalmond; */
+    height: auto;
+    border-bottom: 1px solid #cececf;
+  }
+
+  .ul-9 p {
+    padding: 5px;
+    padding-left: 25px;
+    font-size: 12px;
+    line-height: 15px;
+    color: #69696a;
+  }
+  .ul-9 label {
+    color: #69696a;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 5px 0px;
+  }
+  .ul-9 span {
+    height: 20px;
+    width: 25px;
+    background-image: url(../Images/down-Arrow.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .ul-9 input[type="checkbox"] {
+    display: none;
+  }
+  .ul-9 .div9 {
+    max-height: 0px;
+    overflow: hidden;
+  }
+
+  .ul-9 input[type="checkbox"]:checked + .div9 {
+    max-height: 300px;
+  }
+  /* todo ul 10 */
+  .ul-10 {
+    width: 100%;
+    /* background-color: blanchedalmond; */
+    height: auto;
+    border-bottom: 1px solid #cececf;
+  }
+
+  .ul-10 p {
+    padding: 5px;
+    padding-left: 25px;
+    font-size: 12px;
+    line-height: 15px;
+    color: #69696a;
+  }
+  .ul-10 label {
+    color: #69696a;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 5px 0px;
+  }
+  .ul-10 span {
+    height: 20px;
+    width: 25px;
+    background-image: url(../Images/down-Arrow.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .ul-10 input[type="checkbox"] {
+    display: none;
+  }
+  .ul-10 .div10 {
+    max-height: 0px;
+    overflow: hidden;
+  }
+
+  .ul-10 input[type="checkbox"]:checked + .div10 {
+    max-height: 300px;
+  }
+  /* todo ul 11 */
+  .ul-11 {
+    width: 100%;
+    /* background-color: blanchedalmond; */
+    height: auto;
+    border-bottom: 1px solid #cececf;
+  }
+
+  .ul-11 p {
+    padding: 5px;
+    padding-left: 25px;
+    font-size: 12px;
+    line-height: 15px;
+    color: #69696a;
+  }
+  .ul-11 label {
+    color: #69696a;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 5px 0px;
+  }
+  .ul-11 span {
+    height: 20px;
+    width: 25px;
+    background-image: url(../Images/down-Arrow.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .ul-11 input[type="checkbox"] {
+    display: none;
+  }
+  .ul-11 .div11 {
+    max-height: 0px;
+    overflow: hidden;
+  }
+
+  .ul-11 input[type="checkbox"]:checked + .div11 {
+    max-height: 300px;
+  }
+
+  .s19-div-3 {
+    height: auto;
+    width: 98%;
+    /* background-color: bisque; */
+    color: #69696a;
+    word-wrap: break-word;
+    margin: 0 auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .s19-div-3 p {
+    font-size: 12px;
+    line-height: 15px;
+    word-wrap: break-word;
+  }
+  .s19p3 {
+    padding-bottom: 8px;
+  }
+  .s19-div-3 p a {
+    text-decoration: none;
+    color: #0066cc;
+  }
+  .s19-div-3 p a:hover {
+    text-decoration: underline;
+  }
+}
+@media (min-width: 831px) and (max-width: 10800px) {
+  .section-19 {
+    height: auto;
+    width: 100%;
+    background-color: #f5f5f7;
+    display: none;
+  }
+}

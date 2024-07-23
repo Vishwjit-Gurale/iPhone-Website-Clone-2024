@@ -1,0 +1,293 @@
+@media (min-width: 1061px) and (max-width: 10800px) {
+  .section-6 {
+    width: 100%;
+    height: 720px;
+    /* background-color: yellowgreen; */
+    background-color: #ffffff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: #ffffff;
+  }
+
+  .section-6 .bg-div-6 {
+    /* position: absolute; */
+    height: 700px;
+    width: 97%;
+    background-color: antiquewhite;
+    border-radius: 30px;
+    z-index: 3;
+  }
+
+  .section-6 .text-div-6 {
+    position: absolute;
+    height: 450px;
+    width: 400px;
+    /* background-color: darkcyan; */
+    background-color: transparent;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    z-index: 3;
+    margin-right: 65vw;
+    margin-bottom: 230px;
+  }
+
+  .text-div-6 .sub-text-6 {
+    height: 200px;
+    width: 300px;
+    /* background-color: rgb(249, 142, 2); */
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sub-text-6 .hed-6 p {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;
+    letter-spacing: 0.74px;
+    margin-bottom: 15px;
+  }
+
+  .sub-text-6 .para-6 p {
+    font-size: 46px;
+    font-weight: 600;
+    line-height: 52px;
+    letter-spacing: 0.144px;
+    text-align: left;
+    font-family: "semibold";
+    margin-bottom: 15px;
+  }
+
+  .sub-text-6 .button-6 button i {
+    display: none;
+  }
+
+  .sub-text-6 .button-6 button {
+    border: 0;
+    font-size: 17px;
+    font-weight: normal;
+    line-height: 20px;
+    opacity: 1;
+    letter-spacing: 0.374px;
+    padding: 8px 10px;
+    cursor: pointer;
+    text-align: end;
+    border-radius: 90px;
+    background-color: whitesmoke;
+  }
+
+  .sub-text-6 .button-6 button:hover {
+    background-color: #d6d6da;
+  }
+
+  .section-6 .bg-div-6 {
+    background-image: url(../Images/S-6/2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+/*
+  Todo 731  To  1060  
+*/
+@media (min-width: 731px) and (max-width: 1060.96px) {
+  .section-6 {
+    position: relative;
+    width: 100%;
+    height: 650px;
+    /* background-color: yellowgreen; */
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    color: white;
+  }
+
+  .section-6 .bg-div-6 {
+    height: 630px;
+    width: 97%;
+    border-radius: 30px;
+    background-image: url(../Images/S-6/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: right;
+    position: absolute;
+  }
+
+  .section-6 .text-div-6 {
+    height: 430px;
+    width: 505px;
+    /* background-color: darkcyan; */
+    background-color: transparent;
+    margin-right: 180px;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    position: absolute;
+    margin-bottom: 200px;
+  }
+
+  .text-div-6 .sub-text-6 {
+    height: 200px;
+    width: 290px;
+    /* background-color: rgb(243, 142, 10); */
+    background-color: transparent;
+
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sub-text-6 .hed-6 p {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;
+    letter-spacing: 0.74px;
+  }
+  .sub-text-6 .button-6 button i {
+    display: none;
+  }
+
+  .sub-text-6 .para-6 p {
+    font-size: 46px;
+    font-weight: 600;
+    line-height: 52px;
+    letter-spacing: 0.144px;
+    text-align: left;
+    font-family: "semibold";
+    margin-top: 10px;
+  }
+
+  .sub-text-6 .button-6 button {
+    border: 0;
+    font-size: 17px;
+    font-weight: 100;
+    line-height: 20px;
+    opacity: 1;
+    letter-spacing: 0.374px;
+    padding: 8px 18px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 999px;
+    font-family: "text-semibold";
+    margin-top: 20px;
+  }
+
+  .sub-text-6 .button-6 button:hover {
+    background-color: #d6d6da;
+  }
+}
+
+/*
+  Todo Screen  To  730  
+*/
+
+@media screen and (max-width: 730.96px) {
+  .section-6 {
+    position: relative;
+    width: 100%;
+    height: 680px;
+    /* background-color: yellowgreen; */
+    background-color: #ffffff;
+
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin-top: 15px;
+  }
+
+  .section-6 .bg-div-6 {
+    height: 380px;
+    width: 100%;
+    /* background-color: antiquewhite; */
+    background-color: transparent;
+    display: flex;
+    position: absolute;
+    z-index: 2;
+  }
+
+  .section-6 .text-div-6 {
+    height: 200px;
+    /* width: 505px; */
+    width: 90vw;
+    background-color: transparent;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    z-index: 2;
+    margin-bottom: 440px;
+    container-type: inherit;
+    word-wrap: break-word;
+    /* word-break: break-all; */
+  }
+
+  .text-div-6 .sub-text-6 {
+    height: 200px;
+    width: 290px;
+    background-color: transparent;
+    /* background-color: yellowgreen; */
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sub-text-6 .hed-6 p {
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 23px;
+    text-align: center;
+    /* background-color: yellowgreen; */
+
+    letter-spacing: 0.74px;
+  }
+
+  .sub-text-6 .para-6 p {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: 0.144px;
+    text-align: center;
+    font-family: "semibold";
+    margin-top: 10px;
+  }
+
+  .sub-text-6 .button-6 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .sub-text-6 .button-6 button {
+    border: 0;
+    font-size: 17px;
+    font-weight: 100;
+    line-height: 25px;
+    opacity: 1;
+    letter-spacing: 0.374px;
+    cursor: pointer;
+    text-align: center;
+    font-family: "text-semibold";
+    margin-top: 20px;
+    background-color: #ffffff;
+    color: #0066cc;
+  }
+
+  .section-6 .bg-div-6 {
+    background-image: url(../Images/S-6/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: right;
+    background-position-y: center;
+  }
+
+  /* .sub-text-6 .button-6 button::after {
+    content: "";
+  } */
+
+  /* .sub-text-6 .button-6 button:hover {
+    background-color: #d6d6da;
+  } */
+}

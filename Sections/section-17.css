@@ -1,0 +1,960 @@
+@media (min-width: 1061px) and (max-width: 10800px) {
+  .section-17 {
+    /* height: 630px; */
+    height: 650px;
+    width: 92%;
+    background-color: red;
+    margin: 15px auto;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .s17-left {
+    height: 630px;
+    width: 49%;
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .s17-left .s17-l-1 {
+    height: 260px;
+    width: 100%;
+    background-color: teal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* justify-content: space-eve; */
+    gap: 20px;
+  }
+
+  .s17-left .s17-l-1 .s17-l-img {
+    height: 36px;
+    width: 155px;
+    background-image: url(../Images/S-17/music-1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .s17-left .s17-l-1 .s17-l-hed {
+    font-size: 21px;
+    line-height: 28px;
+    letter-spacing: 0.231px;
+    text-align: center;
+    height: 58px;
+    width: 270px;
+  }
+
+  .s17-left .s17-l-1 .s17-l-link {
+    font-size: 21px;
+    line-height: 28px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .s17-left .s17-l-1 .s17-l-link:hover {
+    text-decoration: underline;
+  }
+
+  .s17-left .s17-l-2 {
+    height: 350px;
+    width: 100%;
+    background-color: indigo;
+  }
+
+  /* todo right div */
+
+  .s17-right {
+    height: 630px;
+    width: 49%;
+    background-color: lightpink;
+  }
+
+  .s17-right .s17-r-1 {
+    height: 260px;
+    width: 100%;
+    background-color: teal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* justify-content: space-eve; */
+    gap: 20px;
+  }
+
+  .s17-right .s17-r-1 .s17-r-img {
+    height: 36px;
+    width: 155px;
+    background-image: url(../Images/S-17/logo_apple_arcade__gekg5co1iaqi_large.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .s17-right .s17-r-1 .s17-r-hed {
+    font-size: 21px;
+    line-height: 28px;
+    letter-spacing: 0.231px;
+    text-align: center;
+    height: 58px;
+    width: 330px;
+  }
+
+  .s17-right .s17-r-1 .s17-r-link {
+    font-size: 21px;
+    line-height: 28px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .s17-right.s17-r-1 .s17-r-link:hover {
+    text-decoration: underline;
+  }
+
+  .s17-right .s17-r-2 {
+    height: 350px;
+    width: 100%;
+    background-color: indigo;
+    display: flex;
+    gap: 20px;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    /* justify-content: center; */
+    justify-content: space-between;
+  }
+  .s17-r-2 .one {
+    height: 350px;
+    width: 210px;
+    background-color: rgb(14, 2, 175);
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .s17-r-2 .one .o-1 {
+    height: 350px;
+    width: 49%;
+    background-color: rgb(11, 10, 0);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  .s17-r-2 .one .o-1 .o-1-1 {
+    height: 105px;
+    width: 105px;
+    /* background-color: aqua; */
+    border-radius: 0 24px 24px 0;
+    background-image: url(../Images/S-17/one/1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .s17-r-2 .one .o-1 .o-1-2 {
+    height: 227px;
+    width: 100%;
+    border-radius: 0 35px 35px 0;
+    background-image: url(../Images/S-17/one/2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: right;
+  }
+
+  /* 1 ka div  two  */
+
+  .s17-r-2 .one .o-2 {
+    height: 350px;
+    width: 49%;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .one .o-2 .o-2-1 {
+    height: 105px;
+    width: 105px;
+    background-color: darkgoldenrod;
+    border-radius: 30px;
+    background-image: url(../Images/S-17/one/3.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .one .o-2 .o-2-2 {
+    height: 105px;
+    width: 105px;
+    background-color: sienna;
+    border-radius: 30px;
+    background-image: url(../Images/S-17/one/4.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .s17-r-2 .one .o-2 .o-2-3 {
+    height: 105px;
+    width: 105px;
+    background-color: fuchsia;
+    border-radius: 25px 25px 0 0;
+    background-image: url(../Images/S-17/one/5.jpg);
+    background-repeat: no-repeat;
+    background-size: 120px;
+    background-position-x: center;
+    background-position-y: center;
+  }
+
+  /* two  */
+
+  .s17-r-2 .two {
+    height: 350px;
+    width: 230px;
+    background-color: skyblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .two .t-1 {
+    height: 227px;
+    width: 100%;
+    background-color: yellow;
+    border-radius: 45px;
+    background-image: url(../Images/S-17/two/1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .two .t-2 {
+    height: 90px;
+    width: 100%;
+    background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+  }
+  .two .t-2 .t-2-1 {
+    width: 105px;
+    height: 90px;
+    background-color: lawngreen;
+    background-image: url(../Images/S-17/two/2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px 30px 0 0;
+  }
+
+  .two .t-2 .t-2-2 {
+    width: 105px;
+    height: 90px;
+    background-color: silver;
+    border-radius: 30px 30px 0 0;
+    background-image: url(../Images/S-17/two/3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  /* three */
+
+  .s17-r-2 .three {
+    height: 350px;
+    width: 150px;
+    background-color: royalblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .three .th-1 {
+    height: 105px;
+    width: 100%;
+    background-color: chartreuse;
+    display: flex;
+    justify-content: space-between;
+  }
+  .three .th-1 .th-1-1 {
+    height: 105px;
+    width: 105px;
+    /* background-image: url(../Images/S-17/three/1.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+  }
+  .three .th-1 .th-1-2 {
+    height: 105px;
+    width: 105px;
+    /* background-image: url(../Images/S-17/three/2.jpg); */
+    background-repeat: no-repeat;
+    border-radius: 20px 0 0 20px;
+    background-size: cover;
+  }
+  .three .th-2 {
+    height: 105px;
+    width: 100%;
+    background-color: slategray;
+    display: flex;
+    justify-content: space-between;
+  }
+  .three .th-2 .th-2-1 {
+    height: 105px;
+    width: 105px;
+    /* background-image: url(../Images/S-17/three/3.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+  }
+  .three .th-2 .th-2-2 {
+    height: 105px;
+    width: 105px;
+    /* background-image: url(../Images/S-17/three/4.jpg); */
+    background-repeat: no-repeat;
+    border-radius: 20px 0 0 20px;
+    background-size: cover;
+  }
+  .three .th-3 {
+    height: 105px;
+    width: 100%;
+    background-color: chocolate;
+    /* display: flex; */
+  }
+  .three .th-3 .th-3-p {
+    height: 105px;
+    width: 100%;
+    /* background-image: url(../Images/S-17/three/5.jpg); */
+    background-repeat: no-repeat;
+    border-radius: 45px 45px 0 0;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: top;
+  }
+}
+@media (min-width: 731px) and (max-width: 1060.99px) {
+  .section-17 {
+    /* height: 630px; */
+    height: 650px;
+    width: 92%;
+    background-color: red;
+    margin: 15px auto;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .s17-left {
+    height: 630px;
+    width: 49%;
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .s17-left .s17-l-1 {
+    height: 260px;
+    width: 100%;
+    background-color: teal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* justify-content: space-eve; */
+    gap: 20px;
+  }
+
+  .s17-left .s17-l-1 .s17-l-img {
+    height: 36px;
+    width: 155px;
+    background-image: url(../Images/S-17/music-1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .s17-left .s17-l-1 .s17-l-hed {
+    font-size: 21px;
+    line-height: 28px;
+    letter-spacing: 0.231px;
+    text-align: center;
+    height: 58px;
+    width: 270px;
+  }
+
+  .s17-left .s17-l-1 .s17-l-link {
+    font-size: 21px;
+    line-height: 28px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .s17-left .s17-l-1 .s17-l-link:hover {
+    text-decoration: underline;
+  }
+
+  .s17-left .s17-l-2 {
+    height: 350px;
+    width: 100%;
+    background-color: indigo;
+  }
+
+  /* todo right div */
+
+  .s17-right {
+    height: 630px;
+    width: 49%;
+    background-color: lightpink;
+  }
+
+  .s17-right .s17-r-1 {
+    height: 260px;
+    width: 100%;
+    background-color: teal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* justify-content: space-eve; */
+    gap: 20px;
+  }
+
+  .s17-right .s17-r-1 .s17-r-img {
+    height: 36px;
+    width: 155px;
+    background-image: url(../Images/S-17/logo_apple_arcade__gekg5co1iaqi_large.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .s17-right .s17-r-1 .s17-r-hed {
+    font-size: 21px;
+    line-height: 28px;
+    letter-spacing: 0.231px;
+    text-align: center;
+    height: 58px;
+    width: 330px;
+  }
+
+  .s17-right .s17-r-1 .s17-r-link {
+    font-size: 21px;
+    line-height: 28px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .s17-right.s17-r-1 .s17-r-link:hover {
+    text-decoration: underline;
+  }
+
+  .s17-right .s17-r-2 {
+    height: 350px;
+    width: 100%;
+    background-color: indigo;
+    display: flex;
+    gap: 20px;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    /* justify-content: center; */
+    justify-content: space-between;
+  }
+  .s17-r-2 .one {
+    height: 350px;
+    width: 210px;
+    background-color: rgb(14, 2, 175);
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .s17-r-2 .one .o-1 {
+    height: 350px;
+    width: 49%;
+    background-color: rgb(11, 10, 0);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  .s17-r-2 .one .o-1 .o-1-1 {
+    height: 105px;
+    width: 105px;
+    /* background-color: aqua; */
+    border-radius: 0 24px 24px 0;
+    background-image: url(../Images/S-17/one/1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .s17-r-2 .one .o-1 .o-1-2 {
+    height: 227px;
+    width: 100%;
+    border-radius: 0 35px 35px 0;
+    background-image: url(../Images/S-17/one/2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: right;
+  }
+
+  /* 1 ka div  two  */
+
+  .s17-r-2 .one .o-2 {
+    height: 350px;
+    width: 49%;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .one .o-2 .o-2-1 {
+    height: 105px;
+    width: 105px;
+    background-color: darkgoldenrod;
+    border-radius: 30px;
+    background-image: url(../Images/S-17/one/3.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .one .o-2 .o-2-2 {
+    height: 105px;
+    width: 105px;
+    background-color: sienna;
+    border-radius: 30px;
+    background-image: url(../Images/S-17/one/4.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .s17-r-2 .one .o-2 .o-2-3 {
+    height: 105px;
+    width: 105px;
+    background-color: fuchsia;
+    border-radius: 25px 25px 0 0;
+    background-image: url(../Images/S-17/one/5.jpg);
+    background-repeat: no-repeat;
+    background-size: 120px;
+    background-position-x: center;
+    background-position-y: center;
+  }
+
+  /* two  */
+
+  .s17-r-2 .two {
+    height: 350px;
+    width: 230px;
+    background-color: skyblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .two .t-1 {
+    height: 227px;
+    width: 100%;
+    background-color: yellow;
+    border-radius: 45px;
+    background-image: url(../Images/S-17/two/1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .two .t-2 {
+    height: 90px;
+    width: 100%;
+    background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+  }
+  .two .t-2 .t-2-1 {
+    width: 105px;
+    height: 90px;
+    background-color: lawngreen;
+    background-image: url(../Images/S-17/two/2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px 30px 0 0;
+  }
+
+  .two .t-2 .t-2-2 {
+    width: 105px;
+    height: 90px;
+    background-color: silver;
+    border-radius: 30px 30px 0 0;
+    background-image: url(../Images/S-17/two/3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  /* three */
+
+  .s17-r-2 .three {
+    height: 350px;
+    width: 230px;
+    background-color: royalblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .three .th-1 {
+    height: 105px;
+    width: 100%;
+    background-color: chartreuse;
+    display: flex;
+    justify-content: space-between;
+  }
+  .three .th-1 .th-1-1 {
+    height: 105px;
+    width: 105px;
+    background-image: url(../Images/S-17/three/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+  }
+  .three .th-1 .th-1-2 {
+    height: 105px;
+    width: 105px;
+    background-image: url(../Images/S-17/three/2.jpg);
+    background-repeat: no-repeat;
+    border-radius: 20px 0 0 20px;
+    background-size: cover;
+  }
+  .three .th-2 {
+    height: 105px;
+    width: 100%;
+    background-color: slategray;
+    display: flex;
+    justify-content: space-between;
+  }
+  .three .th-2 .th-2-1 {
+    height: 105px;
+    width: 105px;
+    background-image: url(../Images/S-17/three/3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+  }
+  .three .th-2 .th-2-2 {
+    height: 105px;
+    width: 105px;
+    background-image: url(../Images/S-17/three/4.jpg);
+    background-repeat: no-repeat;
+    border-radius: 20px 0 0 20px;
+    background-size: cover;
+  }
+  .three .th-3 {
+    height: 105px;
+    width: 100%;
+    background-color: chocolate;
+    /* display: flex; */
+  }
+  .three .th-3 .th-3-p {
+    height: 105px;
+    width: 100%;
+    background-image: url(../Images/S-17/three/5.jpg);
+    background-repeat: no-repeat;
+    border-radius: 45px 45px 0 0;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: top;
+  }
+}
+@media screen and (max-width: 730.99px) {
+  .section-17 {
+    /* height: 630px; */
+    height: 650px;
+    width: 92%;
+    background-color: red;
+    margin: 15px auto;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .s17-left {
+    height: 630px;
+    width: 49%;
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .s17-left .s17-l-1 {
+    height: 260px;
+    width: 100%;
+    background-color: teal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* justify-content: space-eve; */
+    gap: 20px;
+  }
+
+  .s17-left .s17-l-1 .s17-l-img {
+    height: 36px;
+    width: 155px;
+    background-image: url(../Images/S-17/music-1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .s17-left .s17-l-1 .s17-l-hed {
+    font-size: 21px;
+    line-height: 28px;
+    letter-spacing: 0.231px;
+    text-align: center;
+    height: 58px;
+    width: 270px;
+  }
+
+  .s17-left .s17-l-1 .s17-l-link {
+    font-size: 21px;
+    line-height: 28px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .s17-left .s17-l-1 .s17-l-link:hover {
+    text-decoration: underline;
+  }
+
+  .s17-left .s17-l-2 {
+    height: 350px;
+    width: 100%;
+    background-color: indigo;
+  }
+
+  /* todo right div */
+
+  .s17-right {
+    height: 630px;
+    width: 49%;
+    background-color: lightpink;
+  }
+
+  .s17-right .s17-r-1 {
+    height: 260px;
+    width: 100%;
+    background-color: teal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* justify-content: space-eve; */
+    gap: 20px;
+  }
+
+  .s17-right .s17-r-1 .s17-r-img {
+    height: 36px;
+    width: 155px;
+    background-image: url(../Images/S-17/logo_apple_arcade__gekg5co1iaqi_large.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .s17-right .s17-r-1 .s17-r-hed {
+    font-size: 21px;
+    line-height: 28px;
+    letter-spacing: 0.231px;
+    text-align: center;
+    height: 58px;
+    width: 330px;
+  }
+
+  .s17-right .s17-r-1 .s17-r-link {
+    font-size: 21px;
+    line-height: 28px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .s17-right.s17-r-1 .s17-r-link:hover {
+    text-decoration: underline;
+  }
+
+  .s17-right .s17-r-2 {
+    height: 350px;
+    width: 100%;
+    background-color: indigo;
+    display: flex;
+    gap: 20px;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    /* justify-content: center; */
+    justify-content: space-between;
+  }
+  .s17-r-2 .one {
+    height: 350px;
+    width: 210px;
+    background-color: rgb(14, 2, 175);
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .s17-r-2 .one .o-1 {
+    height: 350px;
+    width: 49%;
+    background-color: rgb(11, 10, 0);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  .s17-r-2 .one .o-1 .o-1-1 {
+    height: 105px;
+    width: 105px;
+    /* background-color: aqua; */
+    border-radius: 0 24px 24px 0;
+    background-image: url(../Images/S-17/one/1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .s17-r-2 .one .o-1 .o-1-2 {
+    height: 227px;
+    width: 100%;
+    border-radius: 0 35px 35px 0;
+    background-image: url(../Images/S-17/one/2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: right;
+  }
+
+  /* 1 ka div  two  */
+
+  .s17-r-2 .one .o-2 {
+    height: 350px;
+    width: 49%;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .one .o-2 .o-2-1 {
+    height: 105px;
+    width: 105px;
+    background-color: darkgoldenrod;
+    border-radius: 30px;
+    background-image: url(../Images/S-17/one/3.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .one .o-2 .o-2-2 {
+    height: 105px;
+    width: 105px;
+    background-color: sienna;
+    border-radius: 30px;
+    background-image: url(../Images/S-17/one/4.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .s17-r-2 .one .o-2 .o-2-3 {
+    height: 105px;
+    width: 105px;
+    background-color: fuchsia;
+    border-radius: 25px 25px 0 0;
+    background-image: url(../Images/S-17/one/5.jpg);
+    background-repeat: no-repeat;
+    background-size: 120px;
+    background-position-x: center;
+    background-position-y: center;
+  }
+
+  /* two  */
+
+  .s17-r-2 .two {
+    height: 350px;
+    width: 230px;
+    background-color: skyblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .two .t-1 {
+    height: 227px;
+    width: 100%;
+    background-color: yellow;
+    border-radius: 45px;
+    background-image: url(../Images/S-17/two/1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .two .t-2 {
+    height: 90px;
+    width: 100%;
+    background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+  }
+  .two .t-2 .t-2-1 {
+    width: 105px;
+    height: 90px;
+    background-color: lawngreen;
+    background-image: url(../Images/S-17/two/2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px 30px 0 0;
+  }
+
+  .two .t-2 .t-2-2 {
+    width: 105px;
+    height: 90px;
+    background-color: silver;
+    border-radius: 30px 30px 0 0;
+    background-image: url(../Images/S-17/two/3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  /* three */
+
+  .s17-r-2 .three {
+    height: 350px;
+    width: 230px;
+    background-color: royalblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .three .th-1 {
+    height: 105px;
+    width: 100%;
+    background-color: chartreuse;
+    display: flex;
+    justify-content: space-between;
+  }
+  .three .th-1 .th-1-1 {
+    height: 105px;
+    width: 105px;
+    background-image: url(../Images/S-17/three/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+  }
+  .three .th-1 .th-1-2 {
+    height: 105px;
+    width: 105px;
+    background-image: url(../Images/S-17/three/2.jpg);
+    background-repeat: no-repeat;
+    border-radius: 20px 0 0 20px;
+    background-size: cover;
+  }
+  .three .th-2 {
+    height: 105px;
+    width: 100%;
+    background-color: slategray;
+    display: flex;
+    justify-content: space-between;
+  }
+  .three .th-2 .th-2-1 {
+    height: 105px;
+    width: 105px;
+    background-image: url(../Images/S-17/three/3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+  }
+  .three .th-2 .th-2-2 {
+    height: 105px;
+    width: 105px;
+    background-image: url(../Images/S-17/three/4.jpg);
+    background-repeat: no-repeat;
+    border-radius: 20px 0 0 20px;
+    background-size: cover;
+  }
+  .three .th-3 {
+    height: 105px;
+    width: 100%;
+    background-color: chocolate;
+    /* display: flex; */
+  }
+  .three .th-3 .th-3-p {
+    height: 105px;
+    width: 100%;
+    background-image: url(../Images/S-17/three/5.jpg);
+    background-repeat: no-repeat;
+    border-radius: 45px 45px 0 0;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: top;
+  }
+}

@@ -1,0 +1,130 @@
+@media (min-width: 1061px) and (max-width: 10800px) {
+  .section-18 {
+    position: relative;
+    height: auto;
+    width: 100%;
+    background-color: #f5f5f7;
+    display: flex;
+  }
+
+  .s18-main {
+    height: auto;
+    width: 980px;
+    background-color: #f5f5f7;
+    display: flex;
+    margin: 0 auto;
+    gap: 15px;
+    flex-direction: column;
+  }
+
+  .s18-main p {
+    font-size: 12px;
+    letter-spacing: 0.12px;
+    line-height: 16px;
+  }
+
+  .s18-main .s18-div {
+    height: auto;
+    width: 100%;
+    display: flex;
+    gap: 12px;
+    flex-direction: column;
+    background-color: #f5f5f7;
+    word-wrap: break-word;
+    border-bottom: 1px solid grey;
+
+    padding-bottom: 50px;
+  }
+  .s18-div p {
+    list-style-type: decimal;
+    display: list-item;
+    word-wrap: break-word;
+  }
+}
+@media (min-width: 731px) and (max-width: 1060.99px) {
+  .section-18 {
+    position: relative;
+    height: auto;
+    width: 100%;
+    background-color: #f5f5f7;
+    margin: 0 auto;
+    display: flex;
+  }
+
+  .s18-main {
+    height: auto;
+    width: 94vw;
+    background-color: #f5f5f7;
+    display: flex;
+    margin: 0 auto;
+    gap: 15px;
+    flex-direction: column;
+  }
+
+  .s18-main p {
+    font-size: 12px;
+    letter-spacing: 0.12px;
+    line-height: 16px;
+  }
+
+  .s18-main .s18-div {
+    height: auto;
+    width: 100%;
+    display: flex;
+    gap: 12px;
+    flex-direction: column;
+    background-color: #f5f5f7;
+    word-wrap: break-word;
+    border-bottom: 1px solid grey;
+
+    padding-bottom: 50px;
+  }
+  .s18-div p {
+    list-style-type: decimal;
+    display: list-item;
+    word-wrap: break-word;
+  }
+}
+@media screen and (max-width: 730.99px) {
+  .section-18 {
+    position: relative;
+    height: auto;
+    width: 100%;
+    background-color: #f5f5f7;
+    margin: 0 auto;
+    display: flex;
+  }
+
+  .s18-main {
+    height: auto;
+    width: 94vw;
+    background-color: #f5f5f7;
+    display: flex;
+    margin: 0 auto;
+    gap: 15px;
+    flex-direction: column;
+  }
+
+  .s18-main p {
+    font-size: 12px;
+    letter-spacing: 0.12px;
+    line-height: 16px;
+  }
+
+  .s18-main .s18-div {
+    height: auto;
+    width: 100%;
+    display: flex;
+    gap: 12px;
+    flex-direction: column;
+    /* background-color: cadetblue; */
+    word-wrap: break-word;
+    border-bottom: 1px solid grey;
+    padding-bottom: 40px;
+  }
+  .s18-div p {
+    list-style-type: decimal;
+    display: list-item;
+    word-wrap: break-word;
+  }
+}
